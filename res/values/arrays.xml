@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="wel_play">
+        <item>510</item>
+        <item>290</item>
+        <item>738</item>
+        <item>373</item>
+    </integer-array>
+
+    <integer-array name="mode_dis">
+        <item>63</item>
+        <item>140</item>
+        <item>372</item>
+        <item>401</item>
+    </integer-array>
+
+    <integer-array name="mode_help">
+        <item>672</item>
+        <item>14</item>
+        <item>725</item>
+        <item>63</item>
+    </integer-array>
+
+    <integer-array name="mode_exit">
+        <item>730</item>
+        <item>14</item>
+        <item>785</item>
+        <item>63</item>
+    </integer-array>
+
+    <integer-array name="mode_quiz">
+        <item>425</item>
+        <item>143</item>
+        <item>740</item>
+        <item>404</item>
+    </integer-array>
+
+    <integer-array name="dis_home">
+        <item>26</item>
+        <item>16</item>
+        <item>246</item>
+        <item>118</item>
+    </integer-array>
+    <integer-array name="dis_act">
+        <item>288</item>
+        <item>5</item>
+        <item>537</item>
+        <item>118</item>
+    </integer-array>
+    <integer-array name="dis_hol">
+        <item>102</item>
+        <item>120</item>
+        <item>384</item>
+        <item>217</item>
+    </integer-array>
+    <integer-array name="dis_city">
+        <item>566</item>
+        <item>44</item>
+        <item>702</item>
+        <item>189</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--suppress ALL -->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/welcome_bkg">
+
+    <LinearLayout
+            android:id="@+id/ll_welcome_lang"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_x="0px"
+            android:layout_y="0px"
+            android:orientation="vertical"
+            android:background="@drawable/welcome_fr">
+    </LinearLayout>
+
+    <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
+            android:id="@+id/gif_welcome_play"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_x="0px"
+            android:layout_y="0px"/>
+
+</AbsoluteLayout>

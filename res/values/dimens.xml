@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--img-->
+    <dimen name="mode_title_x">199px</dimen>
+    <dimen name="mode_title_y">76px</dimen>
+    <dimen name="mode_dis_x">101px</dimen>
+    <dimen name="mode_dis_y">345px</dimen>
+    <dimen name="mode_quit_x">626px</dimen>
+    <dimen name="mode_quit_y">346px</dimen>
+
+    <!--welcome-->
+    <dimen name="wel_play_x">508px</dimen>
+    <dimen name="wel_play_y">287px</dimen>
+
+    <!--gif-->
+    <!--discovery-->
+    <dimen name="dis_smoke_x">316px</dimen>
+    <dimen name="dis_smoke_y">266px</dimen>
+    <dimen name="dis_home_x">24px</dimen>
+    <dimen name="dis_home_y">0px</dimen>
+    <dimen name="dis_holiday_x">100px</dimen>
+    <dimen name="dis_holiday_y">117px</dimen>
+    <dimen name="dis_activities_x">288px</dimen>
+    <dimen name="dis_activities_y">0px</dimen>
+    <dimen name="dis_city_x">561px</dimen>
+    <dimen name="dis_city_y">20px</dimen>
+
+</resources>

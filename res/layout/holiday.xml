@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--suppress ALL -->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sub_holiday_bkg">
+
+    <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
+            android:id="@+id/gif_sailing"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"/>
+
+    <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
+            android:id="@+id/gif_cloud"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"/>
+
+    <LinearLayout
+            android:id="@+id/ll_btn"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:background="@drawable/fr_holiday_btns">
+    </LinearLayout>
+
+</AbsoluteLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Picture Book</string>
+    <string name="lang_fra">French</string>
+    <string name="lang_second">Lang Second</string>
+    <string name="lang_third">Lang Third</string>
+    <string name="lang_forth">Lang Forth</string>
+
+    <!--01-->
+    <string name="gif_welcome_play">gif/welcome/play.gif</string>
+
+    <!--02-->
+    <string name="gif_mode_discovery">gif/mode/discovery.gif</string>
+    <string name="gif_mode_quiz">gif/mode/quiz.gif</string>
+
+    <!--03-->
+    <string name="gif_discovery_topics">gif/discovery/topics.gif</string>
+    <string name="gif_discovery_smoke">gif/discovery/smoke.gif</string>
+
+    <!--04-->
+    <string name="fra_city_bee">gif/topics/fr_city/bee.gif</string>
+    <string name="fra_city_dog">gif/topics/fr_city/dog.gif</string>
+    <string name="fra_city_baby">gif/topics/fr_city/baby.gif</string>
+    <string name="fra_city_elephant">gif/topics/fr_city/elephant.gif</string>
+
+    <string name="fra_hobbies_ball">gif/topics/fr_hobbies/ball.gif</string>
+    <string name="fra_hobbies_mouse">gif/topics/fr_hobbies/mouse.gif</string>
+
+    <string name="fra_holidays_sail">gif/topics/fr_holidays/sail.gif</string>
+    <string name="fra_holidays_cloud">gif/topics/fr_holidays/cloud.gif</string>
+
+    <string name="fra_home_bee">gif/topics/fr_home/bee.gif</string>
+    <string name="fra_home_dog">gif/topics/fr_home/dog.gif</string>
+    <string name="fra_home_butterfly">gif/topics/fr_home/butterfly.gif</string>
+    <!--end of 04-->
+
+    <!--05-->
+    <string name="fra_help">gif/help/fr_htp.gif</string>
+
+    <!--06-->
+    <string name="gif_exit_bee">gif/06_exit_screen/bee.gif</string>
+
+    <!--07-->
+    <string name="gif_07">gif/07_exit_ok</string>
+    <string name="animex024_26">animex024-26.gif</string>
+
+    <!--08-->
+    <string name="gif_08">gif/08_score</string>
+    <string name="animex027">animex027.gif</string>
+    <string name="animex029">animex029.gif</string>
+    <string name="animex031">animex031.gif</string>
+    <string name="animex033">animex033.gif</string>
+    <string name="animex_mid_num">mid.gif</string>
+    <string name="animex028">animex028.gif</string>
+    <string name="animex030">animex030.gif</string>
+    <string name="animex032">animex032.gif</string>
+    <string name="animex_big_num">big.gif</string>
+    <string name="animex_small_num">small.gif</string>
+
+</resources>

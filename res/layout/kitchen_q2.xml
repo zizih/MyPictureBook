@@ -5,7 +5,7 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/fr_home_kitchen_q2_bg">
+                android:background="@drawable/fr__q01_my_home_kitchen_02">
 
     <LinearLayout
             android:id="@+id/ll_a2_beurre"
@@ -60,10 +60,10 @@
 
 
     <LinearLayout
-            android:id="@+id/ll_fore"
+            android:id="@+id/ll_kitchen_q2_fore"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:background="@drawable/fr_home_kitchen_q2_fore">
+            android:background="@drawable/fr_my_home_kitchen_02_image_normal">
     </LinearLayout>
 
 </AbsoluteLayout>

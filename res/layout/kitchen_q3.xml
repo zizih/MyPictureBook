@@ -5,65 +5,65 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/fr__q01_my_home_kitchen_01">
+                android:background="@drawable/fr_my_home_kitchen_03_image_normal">
 
     <LinearLayout
-            android:id="@+id/ll_a1_bijou"
+            android:id="@+id/ll_a3_banane"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_chausse"
+            android:id="@+id/ll_a3_carotte"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_cocotte"
+            android:id="@+id/ll_a3_chou"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_cravate"
+            android:id="@+id/ll_a3_concombre"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_fouet"
+            android:id="@+id/ll_a3_fraise"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_lecumoire"
+            android:id="@+id/ll_a3_lorange"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_lepingle"
+            android:id="@+id/ll_a3_poire"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_lepluche"
+            android:id="@+id/ll_a3_poireau"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_maquillage"
+            android:id="@+id/ll_a3_pomme_de"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a1_passoire"
+            android:id="@+id/ll_a3_pomme"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
 
 
     <LinearLayout
-            android:id="@+id/ll_kitchen_q1_fore"
+            android:id="@+id/ll_kitchen_q3_fore"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:background="@drawable/fr_my_home_kitchen_01_image_normal">
+            android:background="@drawable/fr_my_home_kitchen_03a_image_normal">
     </LinearLayout>
 
 </AbsoluteLayout>

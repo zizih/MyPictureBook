@@ -243,6 +243,132 @@
     <!--end of kitchen q2-->
 
 
+    <!--kitchen q3-->
+    <integer-array name="home_kitchen_q3_banane">
+        <item>278</item>
+        <item>270</item>
+        <item>371</item>
+        <item>370</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_carotte">
+        <item>672</item>
+        <item>158</item>
+        <item>776</item>
+        <item>253</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_chou">
+        <item>403</item>
+        <item>308</item>
+        <item>477</item>
+        <item>406</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_concombre">
+        <item>607</item>
+        <item>308</item>
+        <item>771</item>
+        <item>388</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_fraise">
+        <item>520</item>
+        <item>264</item>
+        <item>586</item>
+        <item>360</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_lorange">
+        <item>52</item>
+        <item>24</item>
+        <item>120</item>
+        <item>120</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_poire">
+        <item>663</item>
+        <item>32</item>
+        <item>723</item>
+        <item>138</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_poireau">
+        <item>13</item>
+        <item>273</item>
+        <item>143</item>
+        <item>363</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_pomme_de">
+        <item>160</item>
+        <item>308</item>
+        <item>275</item>
+        <item>402</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q3_pomme">
+        <item>22</item>
+        <item>137</item>
+        <item>97</item>
+        <item>258</item>
+    </integer-array>
+    <!--end of kitchen q3-->
+
+    <!--kitchen q4-->
+    <integer-array name="home_kitchen_q4_bol">
+        <item>40</item>
+        <item>147</item>
+        <item>141</item>
+        <item>231</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_coutean">
+        <item>59</item>
+        <item>361</item>
+        <item>178</item>
+        <item>411</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_cuillere">
+        <item>664</item>
+        <item>171</item>
+        <item>774</item>
+        <item>240</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_fourchette">
+        <item>17</item>
+        <item>30</item>
+        <item>126</item>
+        <item>105</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_lassiette">
+        <item>20</item>
+        <item>277</item>
+        <item>134</item>
+        <item>339</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_marteau">
+        <item>195</item>
+        <item>264</item>
+        <item>316</item>
+        <item>363</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_plat">
+        <item>360</item>
+        <item>300</item>
+        <item>532</item>
+        <item>398</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_serviette">
+        <item>662</item>
+        <item>305</item>
+        <item>778</item>
+        <item>392</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_tasse">
+        <item>550</item>
+        <item>260</item>
+        <item>635</item>
+        <item>343</item>
+    </integer-array>
+    <integer-array name="home_kitchen_q4_verre">
+        <item>636</item>
+        <item>39</item>
+        <item>720</item>
+        <item>150</item>
+    </integer-array>
+    <!--end of kitchen q4-->
+
     <!--end of kitchen-->
 
     <!--end of home-->

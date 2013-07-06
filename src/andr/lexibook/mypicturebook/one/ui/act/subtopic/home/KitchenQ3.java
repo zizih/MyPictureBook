@@ -2,7 +2,7 @@ package andr.lexibook.mypicturebook.one.ui.act.subtopic.home;
 
 import andr.lexibook.mypicturebook.one.R;
 import android.os.Bundle;
-import android.widget.LinearLayout;
+import android.view.MotionEvent;
 
 /**
  * Created by rain on 7/3/13.
@@ -93,6 +93,36 @@ public class KitchenQ3 extends HomeBase {
             ifClicks[i] = false;
             ifGrays[i] = false;
         }
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            for (int i = 0; i < rightCount; i++)
+                if (checkLocation(event, locations[i])) {
+                    pool.play(sounds[i], 1, 1, 0, 0, 1);
+                    if (!ifClicks[i]) {
+                        if (q3Index == 0)
+                            lls[i].setBackgroundDrawable(getResources().getDrawable(greenDrawables[i]));
+                        else if(q3Index ==1)
+                            lls[i].setBackgroundDrawable(getResources().getDrawable(redDrawables[i]));
+                        ifClicks[i] = true;
+                    }
+                }
+            for (int i = rightCount; i < 10; i++)
+                if (checkLocation(event, locations[i])) {
+                    pool.play(sounds[i], 1, 1, 0, 0, 1);
+                    if (!ifClicks[i]) {
+                        if (q3Index == 0)
+                            lls[i].setBackgroundDrawable(getResources().getDrawable(redDrawables[i]));
+                        else if(q3Index ==1)
+                            lls[i].setBackgroundDrawable(getResources().getDrawable(greenDrawables[i]));
+                        ifClicks[i] = true;
+                    }
+                }
+            mHandler.postDelayed(toGrayThead, 1000);
+        }
+        return super.onTouchEvent(event);
     }
 
     @Override

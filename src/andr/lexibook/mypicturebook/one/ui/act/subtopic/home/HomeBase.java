@@ -116,10 +116,11 @@ public class HomeBase extends BaseActivity {
 
     @Override
     public void toPage(Class<?> cls) {
+        super.toPage(cls);
         for (int i = 0; i < 10; i++)
             pool.unload(sounds[i]);
         priorityPool.unload(q_soundId);
-        super.toPage(cls);
+        finish();
     }
 
     public void toNext() {

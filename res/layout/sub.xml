@@ -2,68 +2,66 @@
 
 <!--suppress ALL -->
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/al_subtopic_layout"
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:background="@drawable/fr_my_home_kitchen_03_image_normal">
+                android:layout_height="fill_parent">
 
     <LinearLayout
-            android:id="@+id/ll_a3_banane"
+            android:id="@+id/ll_subtopic_a01"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_carotte"
+            android:id="@+id/ll_subtopic_a02"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_chou"
+            android:id="@+id/ll_subtopic_a03"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_concombre"
+            android:id="@+id/ll_subtopic_a04"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_fraise"
+            android:id="@+id/ll_subtopic_a05"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_lorange"
+            android:id="@+id/ll_subtopic_a06"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_poire"
+            android:id="@+id/ll_subtopic_a07"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_poireau"
+            android:id="@+id/ll_subtopic_a08"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_pomme_de"
+            android:id="@+id/ll_subtopic_a09"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
     <LinearLayout
-            android:id="@+id/ll_a3_pomme"
+            android:id="@+id/ll_subtopic_a10"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>
 
-
     <LinearLayout
-            android:id="@+id/ll_kitchen_q3_fore"
+            android:id="@+id/ll_subtopic_fore"
             android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:background="@drawable/fr_my_home_kitchen_03a_image_normal">
+            android:layout_width="fill_parent">
     </LinearLayout>
 
 </AbsoluteLayout>

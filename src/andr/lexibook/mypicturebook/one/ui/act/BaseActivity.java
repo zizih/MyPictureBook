@@ -1,42 +1,69 @@
 package andr.lexibook.mypicturebook.one.ui.act;
 
 import andr.lexibook.mypicturebook.one.R;
+import andr.lexibook.mypicturebook.one.control.MediaFactory;
+import andr.lexibook.mypicturebook.one.control.SoundFactory;
 import andr.lexibook.mypicturebook.one.util.ViewUtil;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.media.MediaPlayer;
+import android.media.SoundPool;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.MotionEvent;
+import android.view.*;
 import android.widget.AbsoluteLayout;
-import android.widget.ImageView;
 import android.widget.Toast;
+
+import java.io.IOException;
 
 /**
  * Created by rain on 6/22/13.
  */
 @SuppressWarnings("deprecation")
-public class BaseActivity extends Activity {
+public class BaseActivity extends Activity implements MediaPlayer.OnCompletionListener {
 
     private AnimationDrawable ad;
     private Intent toPage;
     private MenuInflater inflater;
+
+    public final int DEU = 1;
+    public final int ENG = 2;
+    public final int ESP = 3;
+    public final int FRA = 4;
+    public MediaPlayer sfxOn;
+
     public AbsoluteLayout.LayoutParams params;
+    public MediaFactory mediaFactory;
+    public SoundFactory soundFactory;
+    public SoundPool pool;
+    public SoundPool priorityPool;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         toPage = new Intent();
         inflater = getMenuInflater();
+        mediaFactory = MediaFactory.getInstance(this);
+        sfxOn = mediaFactory.getSfxOn();
+        soundFactory = SoundFactory.getInstance(this);
+        pool = soundFactory.getPool();
+        priorityPool = soundFactory.getPriorityPool();
     }
 
     public void toPage(Class<?> cls) {
         toPage.setClass(this, cls);
         startActivity(toPage);
-        this.finish();
-        System.gc();
+    }
+
+    public void play(MediaPlayer media) {
+        if (media.isPlaying())
+            media.release();
+        try {
+            media.prepare();
+            media.start();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -73,11 +100,20 @@ public class BaseActivity extends Activity {
         return false;
     }
 
-    protected void animStart(ImageView iv) {
-        System.out.println(iv.getId());
-        System.out.println(iv.getBackground());
-        ad = (AnimationDrawable) iv.getBackground();
-        ad.stop();
-        ad.start();
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0)
+            finish();
+        return false;
+    }
+
+    @Override
+    public void onCompletion(MediaPlayer mp) {
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        System.out.println("OnDestroy: " + getClass().getName());
     }
 }

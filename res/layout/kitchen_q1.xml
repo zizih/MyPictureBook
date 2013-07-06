@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--suppress ALL -->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/fr_home_kitchen_q1_bg">
+
+    <LinearLayout
+            android:id="@+id/ll_a1_bijou"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_chausse"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_cocotte"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_cravate"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_fouet"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_lecumoire"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_lepingle"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_lepluche"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_maquillage"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_a1_passoire"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/ll_fore"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:background="@drawable/fr_home_kitchen_q1_fore">
+    </LinearLayout>
+
+</AbsoluteLayout>

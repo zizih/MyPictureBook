@@ -1,14 +1,13 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.BaseActivity;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.os.Bundle;
 
 /**
  * Created by rain on 6/23/13.
  */
-public class Holiday extends BaseActivity {
+public class Holiday extends SubBase {
 
     private GifMovieView sail;
     private GifMovieView cloud;

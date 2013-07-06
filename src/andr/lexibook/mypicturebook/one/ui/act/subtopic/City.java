@@ -8,7 +8,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 6/23/13.
  */
-public class City extends BaseActivity {
+public class City extends SubBase {
 
     private GifMovieView bee;
     private GifMovieView dog;
@@ -30,4 +30,5 @@ public class City extends BaseActivity {
         elephant.setMovieAsset(getString(R.string.fra_city_elephant));
         baby.setMovieAsset(getString(R.string.fra_city_baby));
     }
+
 }

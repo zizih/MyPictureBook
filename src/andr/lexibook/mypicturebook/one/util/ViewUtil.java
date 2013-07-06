@@ -2,6 +2,7 @@ package andr.lexibook.mypicturebook.one.util;
 
 import android.app.Activity;
 import android.content.Context;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;

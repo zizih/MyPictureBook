@@ -10,16 +10,16 @@
 
     <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
             android:id="@+id/gif_dis_topics"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
             android:layout_x="0px"
             android:layout_y="0px"/>
 
     <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
             android:id="@+id/gif_dis_smoke"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_x="@dimen/dis_smoke_x"
-            android:layout_y="@dimen/dis_smoke_y"/>
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_x="0px"
+            android:layout_y="0px"/>
 
 </AbsoluteLayout>

@@ -21,4 +21,10 @@ public class Help extends BaseActivity {
         help.setMovieAsset(getString(R.string.fra_help));
     }
 
+    @Override
+    public void toPage(Class<?> cls) {
+        super.toPage(cls);
+        finish();
+    }
+
 }

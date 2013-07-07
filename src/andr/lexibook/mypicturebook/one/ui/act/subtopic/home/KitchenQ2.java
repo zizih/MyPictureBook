@@ -10,8 +10,8 @@ public class KitchenQ2 extends HomeBase {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_my_home_kitchen_02_bkg));
-        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_my_home_kitchen_02_image_normal));
+        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q02_my_home_kitchen_02_bkg));
+        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q02_my_home_kitchen_02_image_normal));
         gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q02));
 
         rightCount = 4;

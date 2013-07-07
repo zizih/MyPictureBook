@@ -11,8 +11,8 @@ public class KitchenQ1 extends HomeBase {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_my_home_kitchen_01_bkg));
-        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_my_home_kitchen_01_image_normal));
+        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q01_my_home_kitchen_01_bkg));
+        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q01_my_home_kitchen_01_image_normal));
         gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q01));
 
         q_soundId = soundFactory.getPrioritySound(R.string.mp3_home_003);

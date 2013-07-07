@@ -66,22 +66,22 @@ public class BathroomQ5 extends HomeBase {
                 , soundFactory.getSound(R.string.mp3_home_059, 1)
         };
         locations = new int[][]{
-                getResources().getIntArray(R.array.home_bedroom_q5_pistolet)
-                , getResources().getIntArray(R.array.home_bedroom_q5_aquatique)
-                , getResources().getIntArray(R.array.home_bedroom_q5_canard)
-                , getResources().getIntArray(R.array.home_bedroom_q5_pingouin)
-                , getResources().getIntArray(R.array.home_bedroom_q5_cereales)
-                , getResources().getIntArray(R.array.home_bedroom_q5_laisse)
-                , getResources().getIntArray(R.array.home_bedroom_q5_mixuer)
-                , getResources().getIntArray(R.array.home_bedroom_q5_brique)
-                , getResources().getIntArray(R.array.home_bedroom_q5_bois)
-                , getResources().getIntArray(R.array.home_bedroom_q5_laque)
+                getResources().getIntArray(R.array.home_bathroom_q5_pistolet)
+                , getResources().getIntArray(R.array.home_bathroom_q5_aquatique)
+                , getResources().getIntArray(R.array.home_bathroom_q5_canard)
+                , getResources().getIntArray(R.array.home_bathroom_q5_pingouin)
+                , getResources().getIntArray(R.array.home_bathroom_q5_cereales)
+                , getResources().getIntArray(R.array.home_bathroom_q5_laisse)
+                , getResources().getIntArray(R.array.home_bathroom_q5_mixuer)
+                , getResources().getIntArray(R.array.home_bathroom_q5_brique)
+                , getResources().getIntArray(R.array.home_bathroom_q5_bois)
+                , getResources().getIntArray(R.array.home_bathroom_q5_laque)
         };
     }
 
     @Override
     public void toNext() {
         super.toNext();
-//        toPage(BedroomQ6.class);
+        toPage(BathroomQ6.class);
     }
 }

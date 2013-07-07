@@ -133,11 +133,20 @@ public class HomeBase extends BaseActivity {
     }
 
     public int[] relocation(int[] src) {
-        if (src.length == relocations.length)
+        if (src.length != relocations.length)
             return src;
-        int[] tmp = new int[]{};
+        int[] tmp = new int[10];
         for (int i = 0; i < src.length; i++)
-            tmp[i] = src[relocations[i - 1]];
+            tmp[i] = src[relocations[i] - 1];
+        return tmp;
+    }
+
+    public int[][] relocation(int[][] src) {
+        if (src.length != relocations.length)
+            return src;
+        int[][] tmp = new int[10][];
+        for (int i = 0; i < src.length; i++)
+            tmp[i] = src[relocations[i] - 1];
         return tmp;
     }
 }

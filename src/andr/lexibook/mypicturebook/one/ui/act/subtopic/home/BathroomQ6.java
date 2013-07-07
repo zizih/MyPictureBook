@@ -65,27 +65,28 @@ public class BathroomQ6 extends HomeBase {
                 , soundFactory.getSound(R.string.mp3_home_070, 1)
         };
         locations = new int[][]{
-                getResources().getIntArray(R.array.home_bedroom_q6_anim01)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim02)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim03)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim04)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim05)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim06)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim07)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim08)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim09)
-                , getResources().getIntArray(R.array.home_bedroom_q6_anim10)
+                getResources().getIntArray(R.array.home_bathroom_q6_anim01)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim02)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim03)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim04)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim05)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim06)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim07)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim08)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim09)
+                , getResources().getIntArray(R.array.home_bathroom_q6_anim10)
         };
 
         relocations = new int[]{7, 6, 9, 1, 4, 3, 10, 2, 5, 8};
         greenDrawables = relocation(greenDrawables);
         grayDrawables = relocation(grayDrawables);
         redDrawables = relocation(redDrawables);
+        locations = relocation(locations);
     }
 
     @Override
     public void toNext() {
         super.toNext();
-//        toPage(BedroomQ6.class);
+        toPage(BathroomQ7.class);
     }
 }

@@ -32,6 +32,15 @@
     <string name="gif_home_bee">gif/topics/home/bee.gif</string>
     <string name="gif_home_dog">gif/topics/home/dog.gif</string>
     <string name="gif_home_butterfly">gif/topics/home/butterfly.gif</string>
+    <string name="gif_home_anim_q01">gif/topics/home/animr01_a.gif</string>
+    <string name="gif_home_anim_q02">gif/topics/home/animr02_a.gif</string>
+    <string name="gif_home_anim_q03a">gif/topics/home/animr03a_a.gif</string>
+    <string name="gif_home_anim_q03b">gif/topics/home/animr03b_a.gif</string>
+    <string name="gif_home_anim_q04">gif/topics/home/animr04_a.gif</string>
+    <string name="gif_home_anim_q05">gif/topics/home/animr05_a.gif</string>
+    <string name="gif_home_anim_q06">gif/topics/home/animr06_a.gif</string>
+    <string name="gif_home_anim_q07">gif/topics/home/animr07_a.gif</string>
+    <string name="gif_home_anim_q08">gif/topics/home/animr08_a.gif</string>
     <!--end of 04-->
 
     <!--05-->

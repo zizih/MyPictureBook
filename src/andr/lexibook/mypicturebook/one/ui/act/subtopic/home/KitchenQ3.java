@@ -14,8 +14,9 @@ public class KitchenQ3 extends HomeBase {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q01_my_home_kitchen_03a));
+//        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_));
         ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_my_home_kitchen_03a_image_normal));
+        gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q03a));
 
         q_soundId = soundFactory.getPrioritySound(R.string.mp3_home_025);
         greenDrawables = new int[]{
@@ -83,8 +84,9 @@ public class KitchenQ3 extends HomeBase {
     private void toQ3B() {
         q3Index = 1;
         q_soundId = soundFactory.getPrioritySound(R.string.mp3_home_031);
-        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q01_my_home_kitchen_03b));
+//        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_));
         ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_my_home_kitchen_03b_image_normal));
+        gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q03b));
         /**
          * remove bg of answer
          */
@@ -104,7 +106,7 @@ public class KitchenQ3 extends HomeBase {
                     if (!ifClicks[i]) {
                         if (q3Index == 0)
                             lls[i].setBackgroundDrawable(getResources().getDrawable(greenDrawables[i]));
-                        else if(q3Index ==1)
+                        else if (q3Index == 1)
                             lls[i].setBackgroundDrawable(getResources().getDrawable(redDrawables[i]));
                         ifClicks[i] = true;
                     }
@@ -115,7 +117,7 @@ public class KitchenQ3 extends HomeBase {
                     if (!ifClicks[i]) {
                         if (q3Index == 0)
                             lls[i].setBackgroundDrawable(getResources().getDrawable(redDrawables[i]));
-                        else if(q3Index ==1)
+                        else if (q3Index == 1)
                             lls[i].setBackgroundDrawable(getResources().getDrawable(greenDrawables[i]));
                         ifClicks[i] = true;
                     }

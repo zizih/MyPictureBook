@@ -13,6 +13,7 @@ public class BathroomQ5 extends HomeBase {
         super.onCreate(savedInstanceState);
         al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q05_my_home_bathroom_01_bkg));
         ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q05_my_home_bathroom_01_image_normal));
+        gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q05));
 
         rightCount = 4;
         q_soundId = soundFactory.getPrioritySound(R.string.mp3_home_049);

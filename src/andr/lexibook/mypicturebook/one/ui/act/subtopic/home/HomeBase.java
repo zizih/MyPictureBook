@@ -43,9 +43,9 @@ public class HomeBase extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sub);
-
         al_bg = (AbsoluteLayout) findViewById(R.id.al_subtopic_layout);
         ll_fg = (LinearLayout) findViewById(R.id.ll_subtopic_fore);
+        gif_subtopic = (GifMovieView) findViewById(R.id.gif_subtopic);
 
         home_location = getResources().getIntArray(R.array.home_kitchen_home);
         next_location = getResources().getIntArray(R.array.home_kitchen_next);

@@ -23,8 +23,8 @@ public class Hobbies extends SubBase {
         ball = (GifMovieView) findViewById(R.id.gif_ball);
         mouse = (GifMovieView) findViewById(R.id.gif_mouse);
 
-        ball.setMovieAsset(getString(R.string.fra_hobbies_ball));
-        mouse.setMovieAsset(getString(R.string.fra_hobbies_mouse));
+        ball.setMovieAsset(getString(R.string.gif_hobbies_ball));
+        mouse.setMovieAsset(getString(R.string.gif_hobbies_mouse));
     }
 
     @Override

@@ -21,9 +21,4 @@ public class Exit extends BaseActivity {
         bee.setMovieAsset(getString(R.string.gif_exit_bee));
     }
 
-    @Override
-    public void toPage(Class<?> cls) {
-        super.toPage(cls);
-        finish();
-    }
 }

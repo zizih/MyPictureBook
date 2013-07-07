@@ -20,6 +20,7 @@ public class SoundFactory {
     private SoundPool pool;
     private SoundPool priorityPool;
     private String langPath;
+    public int sfxOn_soundId = -1;
 
     private static SoundFactory instance;
 
@@ -63,6 +64,12 @@ public class SoundFactory {
             System.out.println("Load Sound Err: " + e.getCause() + " From: " + langPath + ctx.getString(pathId));
             return 0;
         }
+    }
+
+    public int getSfxOnSoundId() {
+        if (sfxOn_soundId == -1)
+            sfxOn_soundId = getPrioritySound(R.string.mp3_sfx_on);
+        return sfxOn_soundId;
     }
 
 

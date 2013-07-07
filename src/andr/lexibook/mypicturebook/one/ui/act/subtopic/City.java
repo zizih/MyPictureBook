@@ -25,10 +25,10 @@ public class City extends SubBase {
         elephant = (GifMovieView) findViewById(R.id.gif_elephant);
         baby = (GifMovieView) findViewById(R.id.gif_baby);
 
-        bee.setMovieAsset(getString(R.string.fra_city_bee));
-        dog.setMovieAsset(getString(R.string.fra_city_dog));
-        elephant.setMovieAsset(getString(R.string.fra_city_elephant));
-        baby.setMovieAsset(getString(R.string.fra_city_baby));
+        bee.setMovieAsset(getString(R.string.gif_city_bee));
+        dog.setMovieAsset(getString(R.string.gif_city_dog));
+        elephant.setMovieAsset(getString(R.string.gif_city_elephant));
+        baby.setMovieAsset(getString(R.string.gif_city_baby));
     }
 
 }

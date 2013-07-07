@@ -7,6 +7,12 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
+    <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
+            android:id="@+id/gif_subtopic"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+
     <LinearLayout
             android:id="@+id/ll_subtopic_a01"
             android:layout_height="fill_parent"

@@ -18,24 +18,24 @@
     <string name="gif_discovery_smoke">gif/discovery/smoke.gif</string>
 
     <!--04-->
-    <string name="fra_city_bee">gif/topics/fr_city/bee.gif</string>
-    <string name="fra_city_dog">gif/topics/fr_city/dog.gif</string>
-    <string name="fra_city_baby">gif/topics/fr_city/baby.gif</string>
-    <string name="fra_city_elephant">gif/topics/fr_city/elephant.gif</string>
+    <string name="gif_city_bee">gif/topics/city/bee.gif</string>
+    <string name="gif_city_dog">gif/topics/city/dog.gif</string>
+    <string name="gif_city_baby">gif/topics/city/baby.gif</string>
+    <string name="gif_city_elephant">gif/topics/city/elephant.gif</string>
 
-    <string name="fra_hobbies_ball">gif/topics/fr_hobbies/ball.gif</string>
-    <string name="fra_hobbies_mouse">gif/topics/fr_hobbies/mouse.gif</string>
+    <string name="gif_hobbies_ball">gif/topics/hobbies/ball.gif</string>
+    <string name="gif_hobbies_mouse">gif/topics/hobbies/mouse.gif</string>
 
-    <string name="fra_holidays_sail">gif/topics/fr_holidays/sail.gif</string>
-    <string name="fra_holidays_cloud">gif/topics/fr_holidays/cloud.gif</string>
+    <string name="gif_holidays_sail">gif/topics/holidays/sail.gif</string>
+    <string name="gif_holidays_cloud">gif/topics/holidays/cloud.gif</string>
 
-    <string name="fra_home_bee">gif/topics/fr_home/bee.gif</string>
-    <string name="fra_home_dog">gif/topics/fr_home/dog.gif</string>
-    <string name="fra_home_butterfly">gif/topics/fr_home/butterfly.gif</string>
+    <string name="gif_home_bee">gif/topics/home/bee.gif</string>
+    <string name="gif_home_dog">gif/topics/home/dog.gif</string>
+    <string name="gif_home_butterfly">gif/topics/home/butterfly.gif</string>
     <!--end of 04-->
 
     <!--05-->
-    <string name="fra_help">gif/help/fr_htp.gif</string>
+    <string name="gif_help">gif/help/fr_htp.gif</string>
 
     <!--06-->
     <string name="gif_exit_bee">gif/exit/bee.gif</string>

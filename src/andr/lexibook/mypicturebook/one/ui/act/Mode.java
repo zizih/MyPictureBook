@@ -22,8 +22,6 @@ public class Mode extends BaseActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mode);
-        if (!sfxOn.isPlaying())
-            play(sfxOn);
 
         dis_location = getResources().getIntArray(R.array.mode_dis);
         quiz_location = getResources().getIntArray(R.array.mode_quiz);
@@ -56,8 +54,7 @@ public class Mode extends BaseActivity {
     public void toPage(Class<?> cls) {
         super.toPage(cls);
         if (cls.equals(Exit.class) || cls.equals(Help.class))
-            if (sfxOn != null)
-                sfxOn.release();
-        finish();
+            priorityPool.unload(sfxOn_soundId);
+        else finish();
     }
 }

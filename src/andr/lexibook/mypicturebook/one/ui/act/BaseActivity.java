@@ -6,12 +6,10 @@ import andr.lexibook.mypicturebook.one.control.SoundFactory;
 import andr.lexibook.mypicturebook.one.util.ViewUtil;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.drawable.AnimationDrawable;
 import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.view.*;
-import android.widget.AbsoluteLayout;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -20,9 +18,8 @@ import java.io.IOException;
  * Created by rain on 6/22/13.
  */
 @SuppressWarnings("deprecation")
-public class BaseActivity extends Activity implements MediaPlayer.OnCompletionListener {
+public class BaseActivity extends Activity{
 
-    private AnimationDrawable ad;
     private Intent toPage;
     private MenuInflater inflater;
 
@@ -30,11 +27,10 @@ public class BaseActivity extends Activity implements MediaPlayer.OnCompletionLi
     public final int ENG = 2;
     public final int ESP = 3;
     public final int FRA = 4;
-    public MediaPlayer sfxOn;
+    public int sfxOn_soundId;
 
-    public AbsoluteLayout.LayoutParams params;
-    public MediaFactory mediaFactory;
     public SoundFactory soundFactory;
+    public MediaFactory mediaFactory;
     public SoundPool pool;
     public SoundPool priorityPool;
 
@@ -43,9 +39,8 @@ public class BaseActivity extends Activity implements MediaPlayer.OnCompletionLi
         super.onCreate(savedInstanceState);
         toPage = new Intent();
         inflater = getMenuInflater();
-        mediaFactory = MediaFactory.getInstance(this);
-        sfxOn = mediaFactory.getSfxOn();
         soundFactory = SoundFactory.getInstance(this);
+        mediaFactory = MediaFactory.getInstance(this);
         pool = soundFactory.getPool();
         priorityPool = soundFactory.getPriorityPool();
     }
@@ -86,10 +81,6 @@ public class BaseActivity extends Activity implements MediaPlayer.OnCompletionLi
         return ViewUtil.getInstance(this).getHeightScale();
     }
 
-    public float getDimens(int dimensId) {
-        return getResources().getDimension(dimensId);
-    }
-
     public boolean checkLocation(MotionEvent event, int[] location) {
         if (event.getX() > location[0] * getWidthScale()
                 && event.getY() > location[1] * getHeightScale()
@@ -105,10 +96,6 @@ public class BaseActivity extends Activity implements MediaPlayer.OnCompletionLi
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0)
             finish();
         return false;
-    }
-
-    @Override
-    public void onCompletion(MediaPlayer mp) {
     }
 
     @Override

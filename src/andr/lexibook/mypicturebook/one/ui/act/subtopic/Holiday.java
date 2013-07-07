@@ -20,7 +20,7 @@ public class Holiday extends SubBase {
         sail = (GifMovieView) findViewById(R.id.gif_sailing);
         cloud = (GifMovieView) findViewById(R.id.gif_cloud);
 
-        sail.setMovieAsset(getString(R.string.fra_holidays_sail));
-        cloud.setMovieAsset(getString(R.string.fra_holidays_cloud));
+        sail.setMovieAsset(getString(R.string.gif_holidays_sail));
+        cloud.setMovieAsset(getString(R.string.gif_holidays_cloud));
     }
 }

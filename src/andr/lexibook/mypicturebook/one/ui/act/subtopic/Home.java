@@ -1,7 +1,7 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.Bedroom;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BathroomQ5;
 import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.KitchenQ1;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.os.Bundle;
@@ -30,9 +30,9 @@ public class Home extends SubBase {
         butterfly = (GifMovieView) findViewById(R.id.gif_butterfly);
         dog = (GifMovieView) findViewById(R.id.gif_dog);
 
-        bee.setMovieAsset(getString(R.string.fra_home_bee));
-        butterfly.setMovieAsset(getString(R.string.fra_home_butterfly));
-        dog.setMovieAsset(getString(R.string.fra_home_dog));
+        bee.setMovieAsset(getString(R.string.gif_home_bee));
+        butterfly.setMovieAsset(getString(R.string.gif_home_butterfly));
+        dog.setMovieAsset(getString(R.string.gif_home_dog));
 
         kitchenSoundId = soundFactory.getSound(R.string.mp3_home_002, 1);
         bathroomSoundId = soundFactory.getSound(R.string.mp3_home_093, 1);
@@ -47,7 +47,7 @@ public class Home extends SubBase {
             if (checkLocation(event, kitchen_location))
                 toPage(KitchenQ1.class);
             if (checkLocation(event, bedroom_location))
-                toPage(Bedroom.class);
+                toPage(BathroomQ5.class);
         }
         return super.onTouchEvent(event);
     }

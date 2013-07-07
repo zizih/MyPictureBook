@@ -13,6 +13,7 @@ public class KitchenQ2 extends HomeBase {
         al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q01_my_home_kitchen_02));
         ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr_my_home_kitchen_02_image_normal));
 
+        rightCount = 4;
         q_soundId = soundFactory.getPrioritySound(R.string.mp3_home_014);
         greenDrawables = new int[]{
                 R.drawable.fr_my_home_kitchen_02_leau_green

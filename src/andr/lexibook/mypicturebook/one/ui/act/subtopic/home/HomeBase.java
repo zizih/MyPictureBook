@@ -3,6 +3,7 @@ package andr.lexibook.mypicturebook.one.ui.act.subtopic.home;
 import andr.lexibook.mypicturebook.one.R;
 import andr.lexibook.mypicturebook.one.ui.act.BaseActivity;
 import andr.lexibook.mypicturebook.one.ui.act.subtopic.Home;
+import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
@@ -23,6 +24,7 @@ public class HomeBase extends BaseActivity {
     public ToGrayThread toGrayThead;
     public AbsoluteLayout al_bg;
     public LinearLayout ll_fg;
+    public GifMovieView gif_subtopic;
 
     public LinearLayout[] lls;
     public int[] sounds;
@@ -78,7 +80,11 @@ public class HomeBase extends BaseActivity {
     }
 
     public void toGray() {
-        //specify by sub-class
+        for (int i = 0; i < rightCount; i++)
+            if (ifClicks[i] && !ifGrays[i]) {
+                lls[i].setBackgroundDrawable(getResources().getDrawable(grayDrawables[i]));
+                ifGrays[i] = true;
+            }
     }
 
     @Override
@@ -90,7 +96,6 @@ public class HomeBase extends BaseActivity {
                 priorityPool.play(q_soundId, 1, 1, 0, 0, 1);
             }
             if (checkLocation(event, next_location)) {
-                System.out.println("toNext...");
                 toNext();
             }
             for (int i = 0; i < rightCount; i++)

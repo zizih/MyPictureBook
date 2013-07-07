@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 
-public class Welcome extends BaseActivity {
+public class Welcome extends BaseActivity implements MediaPlayer.OnCompletionListener {
 
     private GifMovieView play;
     private int[] play_location;
@@ -22,17 +22,14 @@ public class Welcome extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
         play_location = getResources().getIntArray(R.array.wel_play);
+        sfxOn_soundId = soundFactory.getSfxOnSoundId();
+        priorityPool.play(sfxOn_soundId, 1, 1, 0, 1, 1);
 
         play = (GifMovieView) findViewById(R.id.gif_welcome_play);
         play.setMovieAsset(getString(R.string.gif_welcome_play));
 
-        sfxOn = mediaFactory.getSfxOn();
         main = mediaFactory.getMedia(R.string.mp3_main_001);
-        play(sfxOn);
-        sfxOn.setOnCompletionListener(this);
-        sfxOn.setLooping(true);
-        sfxOn.setVolume((float) .2, (float) .2);
-
+        main.setOnCompletionListener(this);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -43,11 +40,11 @@ public class Welcome extends BaseActivity {
 
     @Override
     public void onCompletion(MediaPlayer mp) {
-        super.onCompletion(mp);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                play(mediaFactory.getMedia(R.string.mp3_main_002));
+                main = mediaFactory.getMedia(R.string.mp3_main_002);
+                play(main);
             }
         }, 1000);
     }

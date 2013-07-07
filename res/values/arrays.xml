@@ -368,8 +368,81 @@
         <item>150</item>
     </integer-array>
     <!--end of kitchen q4-->
-
     <!--end of kitchen-->
+
+    <!--bedroom-->
+    <!--bedroom q5-->
+    <integer-array name="home_bedroom_q5_laisse">
+        <item>37</item>
+        <item>32</item>
+        <item>137</item>
+        <item>118</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_bois">
+        <item>28</item>
+        <item>164</item>
+        <item>152</item>
+        <item>251</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_cereales">
+        <item>20</item>
+        <item>304</item>
+        <item>120</item>
+        <item>410</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_aquatique">
+        <item>165</item>
+        <item>254</item>
+        <item>289</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_laque">
+        <item>317</item>
+        <item>288</item>
+        <item>376</item>
+        <item>411</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_brique">
+        <item>418</item>
+        <item>264</item>
+        <item>506</item>
+        <item>355</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_mixuer">
+        <item>540</item>
+        <item>268</item>
+        <item>612</item>
+        <item>407</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_pingouin">
+        <item>657</item>
+        <item>285</item>
+        <item>750</item>
+        <item>404</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_pistolet">
+        <item>655</item>
+        <item>160</item>
+        <item>784</item>
+        <item>260</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q5_canard">
+        <item>655</item>
+        <item>37</item>
+        <item>723</item>
+        <item>135</item>
+    </integer-array>
+    <!--end of bedroom q5-->
+
+    <!--bedroom q6-->
+    <!--end of bedroom q6-->
+
+    <!--bedroom q7-->
+    <!--end of bedroom q7-->
+
+    <!--bedroom q8-->
+    <!--end of bedroom q8-->
+    <!--end of bedroom-->
 
     <!--end of home-->
 </resources>

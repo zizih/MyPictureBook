@@ -89,6 +89,6 @@ public class BedroomQ9 extends HomeBase {
     @Override
     public void toNext() {
         super.toNext();
-        toPage(Home.class);
+        toPage(BedroomQ10.class);
     }
 }

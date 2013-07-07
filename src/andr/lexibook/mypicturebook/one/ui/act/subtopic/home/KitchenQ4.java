@@ -82,6 +82,6 @@ public class KitchenQ4 extends HomeBase {
     @Override
     public void toNext() {
         super.toNext();
-        toPage(Home.class);
+        finish();
     }
 }

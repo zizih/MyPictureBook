@@ -79,7 +79,7 @@ public class BathroomQ8 extends HomeBase {
                 , getResources().getIntArray(R.array.home_bathroom_q8_anim10)
         };
 
-        relocations = new int[]{1,5,3,8,9,4,2,7,6,10};
+        relocations = new int[]{1, 5, 3, 8, 9, 4, 2, 7, 6, 10};
         greenDrawables = relocation(greenDrawables);
         grayDrawables = relocation(grayDrawables);
         redDrawables = relocation(redDrawables);
@@ -89,6 +89,6 @@ public class BathroomQ8 extends HomeBase {
     @Override
     public void toNext() {
         super.toNext();
-        toPage(Home.class);
+        finish();
     }
 }

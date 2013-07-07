@@ -1,7 +1,6 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic.home;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.Home;
 import android.os.Bundle;
 
 /**
@@ -12,8 +11,8 @@ public class BedroomQ11 extends HomeBase {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q10_my_home_bedroom_02_bkg));
-        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q10_my_home_bedroom_02_image_normal));
+        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q11_my_home_bedroom_03_bkg));
+        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q11_my_home_bedroom_03_image_normal));
         gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q11));
 
         rightCount = 6;
@@ -36,11 +35,11 @@ public class BedroomQ11 extends HomeBase {
                 , R.drawable.animr11_grey_03
                 , R.drawable.animr11_grey_04
                 , R.drawable.animr11_grey_05
-                , R.drawable.animr11_red_06
                 , R.drawable.animr11_grey_06
-                , R.drawable.animr11_grey_07png
+                , R.drawable.animr11_grey_07
                 , R.drawable.animr11_grey_08
                 , R.drawable.animr11_grey_09
+                , R.drawable.animr11_grey_10
         };
         redDrawables = new int[]{
                 R.drawable.animr11_red_01
@@ -89,6 +88,6 @@ public class BedroomQ11 extends HomeBase {
     @Override
     public void toNext() {
         super.toNext();
-        toPage(Home.class);
+        toPage(BedroomQ12.class);
     }
 }

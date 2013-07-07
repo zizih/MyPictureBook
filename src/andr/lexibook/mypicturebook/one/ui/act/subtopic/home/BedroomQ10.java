@@ -12,8 +12,8 @@ public class BedroomQ10 extends HomeBase {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q09_my_home_bedroom_01_bkg));
-        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q09_my_home_bedroom_01_image_normal));
+        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q10_my_home_bedroom_02_bkg));
+        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q10_my_home_bedroom_02_image_normal));
         gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q10));
 
         rightCount = 3;
@@ -89,6 +89,6 @@ public class BedroomQ10 extends HomeBase {
     @Override
     public void toNext() {
         super.toNext();
-        toPage(Home.class);
+        toPage(BedroomQ11.class);
     }
 }

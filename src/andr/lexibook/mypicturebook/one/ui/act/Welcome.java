@@ -51,8 +51,9 @@ public class Welcome extends BaseActivity implements MediaPlayer.OnCompletionLis
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        if (checkLocation(event, play_location))
-            toPage(Mode.class);
+        if (event.getAction() == MotionEvent.ACTION_DOWN)
+            if (checkLocation(event, play_location))
+                toPage(Mode.class);
         return super.onTouchEvent(event);
     }
 

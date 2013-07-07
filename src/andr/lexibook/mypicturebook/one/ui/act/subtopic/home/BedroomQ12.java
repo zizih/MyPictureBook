@@ -12,8 +12,8 @@ public class BedroomQ12 extends HomeBase {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q09_my_home_bedroom_01_bkg));
-        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q09_my_home_bedroom_01_image_normal));
+        al_bg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q12_my_home_bedroom_04_bkg));
+        ll_fg.setBackgroundDrawable(getResources().getDrawable(R.drawable.fr__q12_my_home_bedroom_04_image_normal));
         gif_subtopic.setMovieAsset(getString(R.string.gif_home_anim_q12));
 
         rightCount = 3;
@@ -22,7 +22,7 @@ public class BedroomQ12 extends HomeBase {
                 R.drawable.animr12_green_01
                 , R.drawable.animr12_green_02
                 , R.drawable.animr12_green_03
-                , R.drawable.animr12_green_03
+                , R.drawable.animr12_green_04
                 , R.drawable.animr12_green_05
                 , R.drawable.animr12_green_06
                 , R.drawable.animr12_green_07
@@ -79,7 +79,7 @@ public class BedroomQ12 extends HomeBase {
                 , getResources().getIntArray(R.array.home_bedroom_q12_anim10)
         };
 
-        relocations = new int[]{9,4,5,3,1,8,2,7,6,10};
+        relocations = new int[]{9, 4, 5, 3, 1, 8, 2, 7, 6, 10};
         greenDrawables = relocation(greenDrawables);
         grayDrawables = relocation(grayDrawables);
         redDrawables = relocation(redDrawables);
@@ -89,6 +89,6 @@ public class BedroomQ12 extends HomeBase {
     @Override
     public void toNext() {
         super.toNext();
-        toPage(Home.class);
+        finish();
     }
 }

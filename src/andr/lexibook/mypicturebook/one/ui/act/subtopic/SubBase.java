@@ -28,10 +28,12 @@ public class SubBase extends BaseActivity {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        if (checkLocation(event, dis_location))
-            toPage(Discovery.class);
-        if (checkLocation(event, mode_location))
-            toPage(Mode.class);
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            if (checkLocation(event, dis_location))
+                toPage(Discovery.class);
+            if (checkLocation(event, mode_location))
+                toPage(Mode.class);
+        }
         return super.onTouchEvent(event);
     }
 

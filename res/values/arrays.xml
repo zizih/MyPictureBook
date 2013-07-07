@@ -97,6 +97,18 @@
         <item>361</item>
         <item>460</item>
     </integer-array>
+    <integer-array name="home_bathroom">
+        <item>340</item>
+        <item>322</item>
+        <item>647</item>
+        <item>380</item>
+    </integer-array>
+    <integer-array name="home_garden">
+        <item>380</item>
+        <item>402</item>
+        <item>685</item>
+        <item>457</item>
+    </integer-array>
     <!--kitchen-->
     <integer-array name="home_kitchen_home">
         <item>738</item>
@@ -648,7 +660,7 @@
         <item>175</item>
         <item>262</item>
         <item>243</item>
-        <item>268</item>
+        <item>368</item>
     </integer-array>
     <integer-array name="home_bedroom_q9_anim05">
         <item>281</item>
@@ -710,7 +722,7 @@
         <item>162</item>
         <item>256</item>
         <item>234</item>
-        <item>282</item>
+        <item>382</item>
     </integer-array>
     <integer-array name="home_bedroom_q10_anim05">
         <item>272</item>
@@ -828,7 +840,7 @@
         <item>29</item>
         <item>330</item>
         <item>130</item>
-        <item>409</item>
+        <item>410</item>
     </integer-array>
     <integer-array name="home_bedroom_q12_anim04">
         <item>135</item>

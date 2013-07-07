@@ -435,6 +435,66 @@
     <!--end of bedroom q5-->
 
     <!--bedroom q6-->
+    <integer-array name="home_bedroom_q6_anim01">
+        <item>24</item>
+        <item>50</item>
+        <item>130</item>
+        <item>130</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim02">
+        <item>26</item>
+        <item>159</item>
+        <item>150</item>
+        <item>238</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim03">
+        <item>21</item>
+        <item>284</item>
+        <item>136</item>
+        <item>386</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim04">
+        <item>156</item>
+        <item>277</item>
+        <item>246</item>
+        <item>415</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim05">
+        <item>260</item>
+        <item>260</item>
+        <item>365</item>
+        <item>396</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim06">
+        <item>408</item>
+        <item>283</item>
+        <item>496</item>
+        <item>412</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim07">
+        <item>520</item>
+        <item>272</item>
+        <item>608</item>
+        <item>368</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim08">
+        <item>649</item>
+        <item>283</item>
+        <item>736</item>
+        <item>403</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim09">
+        <item>660</item>
+        <item>138</item>
+        <item>780</item>
+        <item>260</item>
+    </integer-array>
+    <integer-array name="home_bedroom_q6_anim10">
+        <item>647</item>
+        <item>38</item>
+        <item>732</item>
+        <item>111</item>
+    </integer-array>
     <!--end of bedroom q6-->
 
     <!--bedroom q7-->

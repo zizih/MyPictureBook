@@ -38,6 +38,7 @@ public class HomeBase extends BaseActivity {
 
     public int q_soundId;
     public int rightCount = 5;
+    public int[] relocations;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,5 +130,14 @@ public class HomeBase extends BaseActivity {
     }
 
     public void toNext() {
+    }
+
+    public int[] relocation(int[] src) {
+        if (src.length == relocations.length)
+            return src;
+        int[] tmp = new int[]{};
+        for (int i = 0; i < src.length; i++)
+            tmp[i] = src[relocations[i - 1]];
+        return tmp;
     }
 }

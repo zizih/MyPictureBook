@@ -12,10 +12,6 @@
         <activity
                 android:name=".ui.act.Welcome"
                 android:screenOrientation="landscape">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity
                 android:name=".ui.act.Mode"
@@ -46,10 +42,6 @@
 
         <!--home-->
         <activity
-                android:name=".ui.act.subtopic.home.Bedroom"
-                android:screenOrientation="landscape">
-        </activity>
-        <activity
                 android:name=".ui.act.subtopic.home.KitchenQ1"
                 android:screenOrientation="landscape">
         </activity>
@@ -59,6 +51,62 @@
         </activity>
         <activity
                 android:name=".ui.act.subtopic.home.KitchenQ3"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.KitchenQ4"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BathroomQ5"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BathroomQ6"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BathroomQ7"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BathroomQ8"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BedroomQ9"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BedroomQ10"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BedroomQ11"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.BedroomQ12"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.GardenQ13"
+                android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.GardenQ14"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.GardenQ15"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.GardenQ16"
                 android:screenOrientation="landscape">
         </activity>
         <!--end of home-->

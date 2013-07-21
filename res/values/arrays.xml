@@ -950,14 +950,190 @@
     </integer-array>
     <!--end of garden q13-->
     <!--begin of garden q14-->
-
+    <integer-array name="home_garden_q14_anim01">
+        <item>20</item>
+        <item>26</item>
+        <item>99</item>
+        <item>127</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim02">
+        <item>54</item>
+        <item>153</item>
+        <item>134</item>
+        <item>251</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim03">
+        <item>16</item>
+        <item>301</item>
+        <item>101</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim04">
+        <item>137</item>
+        <item>259</item>
+        <item>215</item>
+        <item>409</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim05">
+        <item>238</item>
+        <item>262</item>
+        <item>350</item>
+        <item>347</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim06">
+        <item>379</item>
+        <item>267</item>
+        <item>457</item>
+        <item>403</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim07">
+        <item>474</item>
+        <item>259</item>
+        <item>587</item>
+        <item>375</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim08">
+        <item>594</item>
+        <item>290</item>
+        <item>676</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim09">
+        <item>689</item>
+        <item>222</item>
+        <item>772</item>
+        <item>333</item>
+    </integer-array>
+    <integer-array name="home_garden_q14_anim10">
+        <item>651</item>
+        <item>27</item>
+        <item>732</item>
+        <item>165</item>
+    </integer-array>
     <!--end of garden q14-->
-    <!--end of garden-->
     <!--begin of garden q15-->
-
+    <integer-array name="home_garden_q15_anim01">
+        <item>33</item>
+        <item>34</item>
+        <item>124</item>
+        <item>141</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim02">
+        <item>16</item>
+        <item>179</item>
+        <item>136</item>
+        <item>263</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim03">
+        <item>26</item>
+        <item>318</item>
+        <item>146</item>
+        <item>406</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim04">
+        <item>161</item>
+        <item>262</item>
+        <item>258</item>
+        <item>362</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim05">
+        <item>272</item>
+        <item>309</item>
+        <item>381</item>
+        <item>416</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim06">
+        <item>399</item>
+        <item>260</item>
+        <item>480</item>
+        <item>356</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim07">
+        <item>504</item>
+        <item>281</item>
+        <item>604</item>
+        <item>413</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim08">
+        <item>641</item>
+        <item>304</item>
+        <item>781</item>
+        <item>407</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim09">
+        <item>651</item>
+        <item>185</item>
+        <item>759</item>
+        <item>284</item>
+    </integer-array>
+    <integer-array name="home_garden_q15_anim10">
+        <item>655</item>
+        <item>73</item>
+        <item>777</item>
+        <item>173</item>
+    </integer-array>
     <!--end of garden q15-->
     <!--begin of garden q16-->
-
+    <integer-array name="home_garden_q16_anim01">
+        <item>44</item>
+        <item>27</item>
+        <item>150</item>
+        <item>127</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim02">
+        <item>28</item>
+        <item>160</item>
+        <item>109</item>
+        <item>277</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim03">
+        <item>43</item>
+        <item>285</item>
+        <item>145</item>
+        <item>409</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim04">
+        <item>183</item>
+        <item>287</item>
+        <item>263</item>
+        <item>401</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim05">
+        <item>279</item>
+        <item>261</item>
+        <item>376</item>
+        <item>393</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim06">
+        <item>403</item>
+        <item>305</item>
+        <item>495</item>
+        <item>408</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim07">
+        <item>507</item>
+        <item>261</item>
+        <item>582</item>
+        <item>383</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim08">
+        <item>602</item>
+        <item>325</item>
+        <item>765</item>
+        <item>401</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim09">
+        <item>696</item>
+        <item>173</item>
+        <item>778</item>
+        <item>297</item>
+    </integer-array>
+    <integer-array name="home_garden_q16_anim10">
+        <item>665</item>
+        <item>28</item>
+        <item>727</item>
+        <item>270</item>
+    </integer-array>
     <!--end of garden q16-->
     <!--end of garden-->
     <!--end of home-->

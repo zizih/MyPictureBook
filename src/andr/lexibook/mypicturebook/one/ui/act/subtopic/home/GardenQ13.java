@@ -77,7 +77,7 @@ public class GardenQ13 extends HomeBase {
                 , getResources().getIntArray(R.array.home_garden_q13_anim10)
         };
 
-        relocations = new int[]{5,3,7,6,8,4,2,9,10,1};
+        relocations = new int[]{5, 3, 7, 6, 8, 4, 2, 9, 10, 1};
         greenDrawables = relocation(greenDrawables);
         grayDrawables = relocation(grayDrawables);
         redDrawables = relocation(redDrawables);
@@ -87,6 +87,6 @@ public class GardenQ13 extends HomeBase {
     @Override
     public void toNext() {
         super.toNext();
-        finish();
+        toPage(GardenQ14.class);
     }
 }

@@ -3,6 +3,7 @@ package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 import andr.lexibook.mypicturebook.one.R;
 import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BathroomQ5;
 import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BedroomQ9;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.GardenQ13;
 import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.KitchenQ1;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.media.MediaPlayer;
@@ -59,15 +60,15 @@ public class Home extends SubBase implements MediaPlayer.OnCompletionListener {
                 subIndex = 0;
             }
             if (checkLocation(event, bathroom_location)) {
-                subMedia = mediaFactory.getMedia(R.string.mp3_home_002);
+                subMedia = mediaFactory.getMedia(R.string.mp3_home_048);
                 subIndex = 1;
             }
             if (checkLocation(event, bedroom_location)) {
-                subMedia = mediaFactory.getMedia(R.string.mp3_home_002);
+                subMedia = mediaFactory.getMedia(R.string.mp3_home_093);
                 subIndex = 2;
             }
             if (checkLocation(event, garden_location)) {
-                subMedia = mediaFactory.getMedia(R.string.mp3_home_002);
+                subMedia = mediaFactory.getMedia(R.string.mp3_home_138);
                 subIndex = 3;
             }
             play(subMedia);
@@ -89,6 +90,7 @@ public class Home extends SubBase implements MediaPlayer.OnCompletionListener {
                 toPage(BedroomQ9.class);
                 break;
             case 3:
+                toPage(GardenQ13.class);
                 break;
         }
     }

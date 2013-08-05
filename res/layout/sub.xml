@@ -12,6 +12,11 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             />
+    <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
+            android:id="@+id/gif_subtopic_b"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
 
     <LinearLayout
             android:id="@+id/ll_subtopic_a01"
@@ -65,7 +70,19 @@
     </LinearLayout>
 
     <LinearLayout
-            android:id="@+id/ll_subtopic_fore"
+            android:id="@+id/ll_subtopic_fore_btns"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_subtopic_fore_img"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_subtopic_fore_lang"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent">
     </LinearLayout>

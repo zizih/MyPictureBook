@@ -1137,4 +1137,284 @@
     <!--end of garden q16-->
     <!--end of garden-->
     <!--end of home-->
+
+    <!--begin of city-->
+    <!--begin of transportation-->
+    <integer-array name="city_school_location">
+        <item>357</item>
+        <item>224</item>
+        <item>617</item>
+        <item>293</item>
+    </integer-array>
+    <integer-array name="city_jobs_location">
+        <item>445</item>
+        <item>306</item>
+        <item>703</item>
+        <item>374</item>
+    </integer-array>
+    <integer-array name="city_shops_location">
+        <item>13</item>
+        <item>388</item>
+        <item>272</item>
+        <item>457</item>
+    </integer-array>
+    <integer-array name="city_transportation_location">
+        <item>289</item>
+        <item>388</item>
+        <item>548</item>
+        <item>456</item>
+    </integer-array>
+    <!--begin of transportation q17-->
+    <integer-array name="city_transportation_q17_anim01">
+        <item>17</item>
+        <item>25</item>
+        <item>145</item>
+        <item>114</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim02">
+        <item>39</item>
+        <item>155</item>
+        <item>139</item>
+        <item>252</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim03">
+        <item>20</item>
+        <item>279</item>
+        <item>151</item>
+        <item>341</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim04">
+        <item>119</item>
+        <item>345</item>
+        <item>263</item>
+        <item>407</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim05">
+        <item>277</item>
+        <item>258</item>
+        <item>400</item>
+        <item>356</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim06">
+        <item>408</item>
+        <item>299</item>
+        <item>502</item>
+        <item>403</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim07">
+        <item>515</item>
+        <item>265</item>
+        <item>638</item>
+        <item>356</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim08">
+        <item>660</item>
+        <item>298</item>
+        <item>763</item>
+        <item>396</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim09">
+        <item>660</item>
+        <item>162</item>
+        <item>783</item>
+        <item>273</item>
+    </integer-array>
+    <integer-array name="city_transportation_q17_anim10">
+        <item>652</item>
+        <item>45</item>
+        <item>776</item>
+        <item>144</item>
+    </integer-array>
+    <!--end of transportation q17-->
+
+    <!--begin of transportation q18-->
+    <integer-array name="city_transportation_q18_anim01">
+        <item>26</item>
+        <item>40</item>
+        <item>140</item>
+        <item>125</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim02">
+        <item>23</item>
+        <item>145</item>
+        <item>130</item>
+        <item>254</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim03">
+        <item>18</item>
+        <item>282</item>
+        <item>146</item>
+        <item>402</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim04">
+        <item>167</item>
+        <item>309</item>
+        <item>265</item>
+        <item>408</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim05">
+        <item>282</item>
+        <item>254</item>
+        <item>396</item>
+        <item>368</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim06">
+        <item>415</item>
+        <item>322</item>
+        <item>530</item>
+        <item>415</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim07">
+        <item>535</item>
+        <item>255</item>
+        <item>660</item>
+        <item>337</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim08">
+        <item>664</item>
+        <item>283</item>
+        <item>783</item>
+        <item>397</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim09">
+        <item>662</item>
+        <item>182</item>
+        <item>776</item>
+        <item>258</item>
+    </integer-array>
+    <integer-array name="city_transportation_q18_anim10">
+        <item>650</item>
+        <item>28</item>
+        <item>732</item>
+        <item>140</item>
+    </integer-array>
+    <!--end of transportation q18-->
+
+    <!--begin of transportation q19-->
+    <integer-array name="city_transportation_q19_anim01">
+        <item>11</item>
+        <item>58</item>
+        <item>152</item>
+        <item>138</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim02">
+        <item>15</item>
+        <item>194</item>
+        <item>105</item>
+        <item>287</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim03">
+        <item>47</item>
+        <item>311</item>
+        <item>153</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim04">
+        <item>162</item>
+        <item>256</item>
+        <item>245</item>
+        <item>387</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim05">
+        <item>250</item>
+        <item>315</item>
+        <item>376</item>
+        <item>417</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim06">
+        <item>412</item>
+        <item>253</item>
+        <item>511</item>
+        <item>365</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim07">
+        <item>542</item>
+        <item>297</item>
+        <item>646</item>
+        <item>411</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim08">
+        <item>672</item>
+        <item>277</item>
+        <item>766</item>
+        <item>392</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim09">
+        <item>672</item>
+        <item>154</item>
+        <item>768</item>
+        <item>253</item>
+    </integer-array>
+    <integer-array name="city_transportation_q19_anim10">
+        <item>653</item>
+        <item>48</item>
+        <item>733</item>
+        <item>133</item>
+    </integer-array>
+    <!--end of transportation q19-->
+
+    <!--begin of transportation q20-->
+    <integer-array name="city_transportation_q20_anim01">
+        <item>24</item>
+        <item>44</item>
+        <item>139</item>
+        <item>127</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim02">
+        <item>35</item>
+        <item>178</item>
+        <item>146</item>
+        <item>271</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim03">
+        <item>18</item>
+        <item>323</item>
+        <item>144</item>
+        <item>402</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim04">
+        <item>168</item>
+        <item>251</item>
+        <item>280</item>
+        <item>338</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim05">
+        <item>283</item>
+        <item>309</item>
+        <item>379</item>
+        <item>418</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim06">
+        <item>389</item>
+        <item>259</item>
+        <item>505</item>
+        <item>353</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim07">
+        <item>524</item>
+        <item>291</item>
+        <item>617</item>
+        <item>406</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim08">
+        <item>646</item>
+        <item>306</item>
+        <item>758</item>
+        <item>406</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim09">
+        <item>663</item>
+        <item>395</item>
+        <item>768</item>
+        <item>275</item>
+    </integer-array>
+    <integer-array name="city_transportation_q20_anim10">
+        <item>657</item>
+        <item>60</item>
+        <item>754</item>
+        <item>175</item>
+    </integer-array>
+    <!--end of transportation q20-->
+    <!--end of transportation-->
+    <!--end of city-->
 </resources>

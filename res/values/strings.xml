@@ -49,6 +49,13 @@
     <string name="gif_home_anim_q14">gif/topics/home/animr14_a.gif</string>
     <string name="gif_home_anim_q15">gif/topics/home/animr15_a.gif</string>
     <string name="gif_home_anim_q16">gif/topics/home/animr16_a.gif</string>
+
+
+    <string name="gif_city_anim_q17a">gif/topics/city/animr17_a.gif</string>
+    <string name="gif_city_anim_q17b">gif/topics/city/animr17_a02_3.gif</string>
+    <string name="gif_city_anim_q18">gif/topics/city/animr18_a.gif</string>
+    <string name="gif_city_anim_q19">gif/topics/city/animr19_a.gif</string>
+    <string name="gif_city_anim_q20">gif/topics/city/animr20_a.gif</string>
     <!--end of 04-->
 
     <!--05-->

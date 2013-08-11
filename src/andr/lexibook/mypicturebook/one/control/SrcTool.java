@@ -531,7 +531,7 @@ public class SrcTool {
     private int[] anims = {
             R.string.gif_anim_q01
             , R.string.gif_anim_q02
-            , R.string.gif_anim_q03a
+            , R.string.gif_anim_q03
             , R.string.gif_anim_q04
             , R.string.gif_anim_q05
             , R.string.gif_anim_q06
@@ -552,18 +552,18 @@ public class SrcTool {
             , R.string.gif_anim_q21
             , R.string.gif_anim_q22
             , R.string.gif_anim_q23
-            , R.string.gif_anim_q24
+            , R.string.gif_anim_q24a
             , R.string.gif_anim_q25
             , R.string.gif_anim_q26
-            , R.string.gif_anim_q27
+            , R.string.gif_anim_q27a
             , R.string.gif_anim_q28
             , R.string.gif_anim_q29
             , R.string.gif_anim_q30
             , R.string.gif_anim_q31
             , R.string.gif_anim_q32
-            , R.string.gif_anim_q33
-            , R.string.gif_anim_q34
-            , R.string.gif_anim_q35
+            , R.string.gif_anim_q33a
+            , R.string.gif_anim_q34a
+            , R.string.gif_anim_q35a
             , R.string.gif_anim_q36
             , R.string.gif_anim_q37
             , R.string.gif_anim_q38
@@ -577,15 +577,15 @@ public class SrcTool {
             , R.string.gif_anim_q46
             , R.string.gif_anim_q47
             , R.string.gif_anim_q48
-            , R.string.gif_anim_q49
-            , R.string.gif_anim_q50
+            , R.string.gif_anim_q49a
+            , R.string.gif_anim_q50a
             , R.string.gif_anim_q51
-            , R.string.gif_anim_q52
-            , R.string.gif_anim_q53
-            , R.string.gif_anim_q54
+            , R.string.gif_anim_q52a
+            , R.string.gif_anim_q53a
+            , R.string.gif_anim_q54a
             , R.string.gif_anim_q55
             , R.string.gif_anim_q56
-            , R.string.gif_anim_q57
+            , R.string.gif_anim_q57a
             , R.string.gif_anim_q58
     };
 

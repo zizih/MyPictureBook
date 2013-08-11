@@ -32,6 +32,8 @@ public class SubBase extends BaseActivity {
     private LinearLayout llTxt;
     private GifMovieView gifA;
     private GifMovieView gifB;
+    private GifMovieView gifC;
+    private GifMovieView gifD;
 
     private LinearLayout[] lls;
     private int[] aSounds;
@@ -56,6 +58,8 @@ public class SubBase extends BaseActivity {
         llTxt = (LinearLayout) findViewById(R.id.ll_subtopic_fore_lang);
         gifA = (GifMovieView) findViewById(R.id.gif_subtopic);
         gifB = (GifMovieView) findViewById(R.id.gif_subtopic_b);
+        gifC = (GifMovieView) findViewById(R.id.gif_subtopic_c);
+        gifD = (GifMovieView) findViewById(R.id.gif_subtopic_d);
 
         home_location = getResources().getIntArray(R.array.home_kitchen_home);
         next_location = getResources().getIntArray(R.array.home_kitchen_next);
@@ -149,6 +153,16 @@ public class SubBase extends BaseActivity {
         return super.onTouchEvent(event);
     }
 
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (gifA != null) gifA.Clear();
+        if (gifB != null) gifB.Clear();
+        if (gifC != null) gifC.Clear();
+        if (gifD != null) gifD.Clear();
+    }
+
     @Override
     public void toPage(Class<?> cls) {
         super.toPage(cls);
@@ -205,6 +219,7 @@ public class SubBase extends BaseActivity {
             qIndex--;
         }
         this.qIndex = qIndex;
+        System.out.println("qIndex: " + qIndex);
         Tool.setQIndex(this.qIndex);
         setBg();
         setFg();
@@ -249,6 +264,14 @@ public class SubBase extends BaseActivity {
 
     public void setAnimB(int srcId) {
         gifB.setMovieAsset(getResources().getString(srcId));
+    }
+
+    public void setAnimC(int srcId) {
+        gifC.setMovieAsset(getResources().getString(srcId));
+    }
+
+    public void setAnimD(int srcId) {
+        gifD.setMovieAsset(getResources().getString(srcId));
     }
 
     public void setGreen() {

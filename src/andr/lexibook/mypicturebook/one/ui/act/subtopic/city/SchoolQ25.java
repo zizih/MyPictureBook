@@ -11,5 +11,9 @@ public class SchoolQ25 extends SubBase {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setQIndex(25);
+        setRight(5);
+        setReLocation(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        setNextPage(SchoolQ26.class);
     }
 }

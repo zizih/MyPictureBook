@@ -184,13 +184,6 @@ public class GifMovieView extends View {
             float scaleW = 1f;
             int measureModeHeight = MeasureSpec.getMode(heightMeasureSpec);
 
-//            if (measureModeHeight != MeasureSpec.UNSPECIFIED) {
-//                int maximumHeight = MeasureSpec.getSize(heightMeasureSpec);
-//                if (movieHeight > maximumHeight) {
-//                    scaleW = (float) movieHeight / (float) maximumHeight;
-//                }
-//            }
-
 			/*
              * calculate overall scale
 			 */
@@ -199,10 +192,6 @@ public class GifMovieView extends View {
 
             mMeasuredMovieWidth = (int) (movieWidth * mScaleX);
             mMeasuredMovieHeight = (int) (movieHeight * mScaleY);
-//            Toast.makeText(ctx, scaleW + " " + scaleH + " " + movieWidth + "  " + movieHeight + " X: " + mScaleX + "  " + mMeasuredMovieWidth + " Y: " + mScaleY + "  " + mMeasuredMovieHeight, 1000).show();
-//            mMeasuredMovieWidth = (int) ViewUtil.getInstance(ctx).getWinWidth();
-//            mMeasuredMovieHeight = (int) ViewUtil.getInstance(ctx).getWinHeight();
-//            Toast.makeText(ctx, "A: " + (measureModeHeight != MeasureSpec.UNSPECIFIED) + "  " + movieWidth + "  " + movieHeight + " X: " + mScaleX + "  " + mMeasuredMovieWidth + " Y: " + mScaleY + "  " + mMeasuredMovieHeight, 1000).show();
 
             setMeasuredDimension(mMeasuredMovieWidth, mMeasuredMovieHeight);
 
@@ -357,5 +346,10 @@ public class GifMovieView extends View {
         super.onWindowVisibilityChanged(visibility);
         mVisible = visibility == View.VISIBLE;
         invalidateView();
+    }
+
+    public void Clear() {
+        mMovie = null;
+        clearAnimation();
     }
 }

@@ -21,6 +21,6 @@ public class KitchenQ03 extends SubBase {
     public void toQB() {
         super.toQB();
         setQSound(R.string.mp3_home_031);
-        setAnimA(R.string.gif_anim_q03b);
+        setAnimA(R.string.gif_anim_q03);
     }
 }

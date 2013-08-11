@@ -50,10 +50,6 @@ public class Discovery extends BaseActivity {
         hobbSoundId = soundFactory.getSound(R.string.mp3_hobby_001, 1);
         holSoundId = soundFactory.getSound(R.string.mp3_holiday_001, 1);
         citySoundId = soundFactory.getSound(R.string.mp3_city_001, 1);
-        System.out.println("homeSoundId: " + homeSoundId);
-        System.out.println("hobbSoundId: " + hobbSoundId);
-        System.out.println("holiSoundId: " + holSoundId);
-        System.out.println("citySoundId: " + citySoundId);
     }
 
     @Override
@@ -61,7 +57,7 @@ public class Discovery extends BaseActivity {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
             if (checkLocation(event, home)) {
                 toPage(Home.class);
-                System.out.println("homeSound: " + pool.play(homeSoundId, 1, 1, 0, 0, 1));
+                pool.play(homeSoundId, 1, 1, 0, 0, 1);
             }
             if (checkLocation(event, act)) {
                 toPage(Hobbies.class);

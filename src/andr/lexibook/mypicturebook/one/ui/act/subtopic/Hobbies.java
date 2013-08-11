@@ -1,16 +1,13 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.BaseActivity;
-import andr.lexibook.mypicturebook.one.ui.act.Mode;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.os.Bundle;
-import android.view.MotionEvent;
 
 /**
  * Created by rain on 6/23/13.
  */
-public class Hobbies extends SubBase {
+public class Hobbies extends TopicBase {
 
     private GifMovieView ball;
     private GifMovieView mouse;

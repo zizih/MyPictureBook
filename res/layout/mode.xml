@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--suppress ALL -->
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/mode_bkg">
+                android:background="@drawable/mode_selection_bkg">
 
     <ImageView
             android:id="@+id/ll_mode_bkg"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
             android:orientation="vertical"
-            android:background="@drawable/mode_quit_bkg"/>
+            android:background="@drawable/animex004_bkg"/>
 
 
     <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
@@ -32,7 +31,7 @@
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
             android:orientation="vertical"
-            android:background="@drawable/mode_fr"/>
+            android:background="@drawable/mode_selection_fr"/>
 
 
 </AbsoluteLayout>

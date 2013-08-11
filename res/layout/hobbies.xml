@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--suppress ALL -->
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/sub_hobbies_bkg">
+                android:background="@drawable/hobbies_bkg">
 
     <andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView
             android:id="@+id/gif_ball"
@@ -22,7 +21,7 @@
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
             android:orientation="vertical"
-            android:background="@drawable/fr_hobbies_btns">
+            android:background="@drawable/fr_04_hobbies">
     </LinearLayout>
 
 </AbsoluteLayout>

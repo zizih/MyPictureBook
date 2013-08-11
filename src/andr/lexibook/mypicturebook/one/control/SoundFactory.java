@@ -38,6 +38,13 @@ public class SoundFactory {
         this.langPath = ctx.getString(R.string.mp3_lang_fra);
     }
 
+    /**
+     * for answer
+     *
+     * @param pathId
+     * @param priority
+     * @return
+     */
     public int getSound(int pathId, int priority) {
         try {
             return pool.load(ctx.getAssets().openFd(langPath + ctx.getString(pathId)), priority);
@@ -56,6 +63,12 @@ public class SoundFactory {
         return priorityPool;
     }
 
+    /**
+     * for question or other
+     *
+     * @param pathId
+     * @return
+     */
     public int getPrioritySound(int pathId) {
         try {
             return priorityPool.load(ctx.getAssets().openFd(langPath + ctx.getString(pathId)), 2);

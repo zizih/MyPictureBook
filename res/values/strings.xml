@@ -32,30 +32,6 @@
     <string name="gif_home_bee">gif/topics/home/bee.gif</string>
     <string name="gif_home_dog">gif/topics/home/dog.gif</string>
     <string name="gif_home_butterfly">gif/topics/home/butterfly.gif</string>
-    <string name="gif_home_anim_q01">gif/topics/home/animr01_a.gif</string>
-    <string name="gif_home_anim_q02">gif/topics/home/animr02_a.gif</string>
-    <string name="gif_home_anim_q03a">gif/topics/home/animr03a_a.gif</string>
-    <string name="gif_home_anim_q03b">gif/topics/home/animr03b_a.gif</string>
-    <string name="gif_home_anim_q04">gif/topics/home/animr04_a.gif</string>
-    <string name="gif_home_anim_q05">gif/topics/home/animr05_a.gif</string>
-    <string name="gif_home_anim_q06">gif/topics/home/animr06_a.gif</string>
-    <string name="gif_home_anim_q07">gif/topics/home/animr07_a.gif</string>
-    <string name="gif_home_anim_q08">gif/topics/home/animr08_a.gif</string>
-    <string name="gif_home_anim_q09">gif/topics/home/animr09_a.gif</string>
-    <string name="gif_home_anim_q10">gif/topics/home/animr10_a.gif</string>
-    <string name="gif_home_anim_q11">gif/topics/home/animr11_a.gif</string>
-    <string name="gif_home_anim_q12">gif/topics/home/animr12_a.gif</string>
-    <string name="gif_home_anim_q13">gif/topics/home/animr13_a.gif</string>
-    <string name="gif_home_anim_q14">gif/topics/home/animr14_a.gif</string>
-    <string name="gif_home_anim_q15">gif/topics/home/animr15_a.gif</string>
-    <string name="gif_home_anim_q16">gif/topics/home/animr16_a.gif</string>
-
-
-    <string name="gif_city_anim_q17a">gif/topics/city/animr17_a.gif</string>
-    <string name="gif_city_anim_q17b">gif/topics/city/animr17_a02_3.gif</string>
-    <string name="gif_city_anim_q18">gif/topics/city/animr18_a.gif</string>
-    <string name="gif_city_anim_q19">gif/topics/city/animr19_a.gif</string>
-    <string name="gif_city_anim_q20">gif/topics/city/animr20_a.gif</string>
     <!--end of 04-->
 
     <!--05-->
@@ -80,6 +56,72 @@
     <string name="animex032">animex032.gif</string>
     <string name="animex_big_num">big.gif</string>
     <string name="animex_small_num">small.gif</string>
+
+    <!--anims-->
+    <string name="gif_anim_q01">gif/topics/home/animr01_a.gif</string>
+    <string name="gif_anim_q02">gif/topics/home/animr02_a.gif</string>
+    <string name="gif_anim_q03a">gif/topics/home/animr03a_a.gif</string>
+    <string name="gif_anim_q03b">gif/topics/home/animr03b_a.gif</string>
+    <string name="gif_anim_q04">gif/topics/home/animr04_a.gif</string>
+    <string name="gif_anim_q05">gif/topics/home/animr05_a.gif</string>
+    <string name="gif_anim_q06">gif/topics/home/animr06_a.gif</string>
+    <string name="gif_anim_q07">gif/topics/home/animr07_a.gif</string>
+    <string name="gif_anim_q08">gif/topics/home/animr08_a.gif</string>
+    <string name="gif_anim_q09">gif/topics/home/animr09_a.gif</string>
+    <string name="gif_anim_q10">gif/topics/home/animr10_a.gif</string>
+    <string name="gif_anim_q11">gif/topics/home/animr11_a.gif</string>
+    <string name="gif_anim_q12">gif/topics/home/animr12_a.gif</string>
+    <string name="gif_anim_q13">gif/topics/home/animr13_a.gif</string>
+    <string name="gif_anim_q14">gif/topics/home/animr14_a.gif</string>
+    <string name="gif_anim_q15">gif/topics/home/animr15_a.gif</string>
+    <string name="gif_anim_q16">gif/topics/home/animr16_a.gif</string>
+
+
+    <string name="gif_anim_q17a">gif/topics/city/animr17_a.gif</string>
+    <string name="gif_anim_q17b">gif/topics/city/animr17_a02_3.gif</string>
+    <string name="gif_anim_q18">gif/topics/city/animr18_a.gif</string>
+    <string name="gif_anim_q19">gif/topics/city/animr19_a.gif</string>
+    <string name="gif_anim_q20">gif/topics/city/animr20_a.gif</string>
+    <string name="gif_anim_q21">gif/topics/city/animr21_a.gif</string>
+    <string name="gif_anim_q22">gif/topics/city/animr22_a.gif</string>
+    <string name="gif_anim_q23">gif/topics/city/animr23_a.gif</string>
+    <string name="gif_anim_q24">gif/topics/city/animr24_a.gif</string>
+
+    <string name="gif_anim_q25">gif/topics/city/animr25_a.gif</string>
+    <string name="gif_anim_q26">gif/topics/city/animr26_a.gif</string>
+    <string name="gif_anim_q27">gif/topics/city/animr27_a.gif</string>
+    <string name="gif_anim_q28">gif/topics/city/animr28_a.gif</string>
+    <string name="gif_anim_q29">gif/topics/city/animr29_a.gif</string>
+    <string name="gif_anim_q30">gif/topics/city/animr30_a.gif</string>
+    <string name="gif_anim_q31">gif/topics/city/animr31_a.gif</string>
+    <string name="gif_anim_q32">gif/topics/city/animr32_a.gif</string>
+    <string name="gif_anim_q33">gif/topics/city/animr33_a.gif</string>
+    <string name="gif_anim_q34">gif/topics/city/animr34_a.gif</string>
+    <string name="gif_anim_q35">gif/topics/city/animr35_a.gif</string>
+    <string name="gif_anim_q36">gif/topics/city/animr36_a.gif</string>
+    <string name="gif_anim_q37">gif/topics/city/animr37_a.gif</string>
+    <string name="gif_anim_q38">gif/topics/city/animr38_a.gif</string>
+    <string name="gif_anim_q39">gif/topics/city/animr39_a.gif</string>
+    <string name="gif_anim_q40">gif/topics/city/animr40_a.gif</string>
+    <string name="gif_anim_q41">gif/topics/city/animr41_a.gif</string>
+    <string name="gif_anim_q42">gif/topics/city/animr42_a.gif</string>
+    <string name="gif_anim_q43">gif/topics/city/animr43_a.gif</string>
+    <string name="gif_anim_q44">gif/topics/city/animr44_a.gif</string>
+    <string name="gif_anim_q45">gif/topics/city/animr45_a.gif</string>
+    <string name="gif_anim_q46">gif/topics/city/animr46_a.gif</string>
+    <string name="gif_anim_q47">gif/topics/city/animr47_a.gif</string>
+    <string name="gif_anim_q48">gif/topics/city/animr48_a.gif</string>
+    <string name="gif_anim_q49">gif/topics/city/animr49_a.gif</string>
+    <string name="gif_anim_q50">gif/topics/city/animr50_a.gif</string>
+    <string name="gif_anim_q51">gif/topics/city/animr51_a.gif</string>
+    <string name="gif_anim_q52">gif/topics/city/animr52_a.gif</string>
+    <string name="gif_anim_q53">gif/topics/city/animr53_a.gif</string>
+    <string name="gif_anim_q54">gif/topics/city/animr54_a.gif</string>
+    <string name="gif_anim_q55">gif/topics/city/animr55_a.gif</string>
+    <string name="gif_anim_q56">gif/topics/city/animr56_a.gif</string>
+    <string name="gif_anim_q57">gif/topics/city/animr57_a.gif</string>
+    <string name="gif_anim_q58">gif/topics/city/animr58_a.gif</string>
+    <!--end of anims-->
 
     <!--mp3-->
     <string name="mp3_home_001">fr_mpb_1_home_001.mp3</string>

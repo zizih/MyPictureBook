@@ -7,7 +7,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 6/23/13.
  */
-public class Holiday extends SubBase {
+public class Holiday extends TopicBase {
 
     private GifMovieView sail;
     private GifMovieView cloud;

@@ -1,20 +1,19 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BathroomQ5;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BedroomQ9;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BathroomQ05;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BedroomQ09;
 import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.GardenQ13;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.KitchenQ1;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.KitchenQ01;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.MotionEvent;
 
 /**
  * Created by rain on 6/23/13.
  */
-public class Home extends SubBase implements MediaPlayer.OnCompletionListener {
+public class Home extends TopicBase implements MediaPlayer.OnCompletionListener {
 
     private GifMovieView bee;
     private GifMovieView butterfly;
@@ -81,13 +80,13 @@ public class Home extends SubBase implements MediaPlayer.OnCompletionListener {
     public void onCompletion(MediaPlayer mp) {
         switch (subIndex) {
             case 0:
-                toPage(KitchenQ1.class);
+                toPage(KitchenQ01.class);
                 break;
             case 1:
-                toPage(BathroomQ5.class);
+                toPage(BathroomQ05.class);
                 break;
             case 2:
-                toPage(BedroomQ9.class);
+                toPage(BedroomQ09.class);
                 break;
             case 3:
                 toPage(GardenQ13.class);

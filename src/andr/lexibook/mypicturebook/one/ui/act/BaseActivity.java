@@ -5,7 +5,9 @@ import andr.lexibook.mypicturebook.one.control.MediaFactory;
 import andr.lexibook.mypicturebook.one.control.SoundFactory;
 import andr.lexibook.mypicturebook.one.util.ViewUtil;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Bundle;
@@ -18,7 +20,7 @@ import java.io.IOException;
  * Created by rain on 6/22/13.
  */
 @SuppressWarnings("deprecation")
-public class BaseActivity extends Activity{
+public class BaseActivity extends Activity {
 
     private Intent toPage;
     private MenuInflater inflater;
@@ -33,10 +35,12 @@ public class BaseActivity extends Activity{
     public MediaFactory mediaFactory;
     public SoundPool pool;
     public SoundPool priorityPool;
+    public SharedPreferences sp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        sp = this.getSharedPreferences(getPackageName(), Context.MODE_PRIVATE);
         toPage = new Intent();
         inflater = getMenuInflater();
         soundFactory = SoundFactory.getInstance(this);

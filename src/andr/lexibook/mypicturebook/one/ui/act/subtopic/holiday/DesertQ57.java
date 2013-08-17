@@ -1,13 +1,12 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic.holiday;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.SubBase;
 import android.os.Bundle;
 
 /**
  * Created by rain on 8/11/13.
  */
-public class DesertQ57 extends SubBase {
+public class DesertQ57 extends HolidayBase {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -8,7 +8,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application android:label="@string/app_name"
                  android:icon="@drawable/icon"
-                 android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+                 android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+                 android:installLocation="preferExternal">
         <activity
                 android:name=".ui.act.Welcome"
                 android:screenOrientation="landscape">
@@ -42,39 +43,43 @@
 
         <!--home-->
         <activity
-                android:name=".ui.act.subtopic.home.KitchenQ1"
+                android:name=".ui.act.subtopic.home.KitchenQ01"
+                android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.home.KitchenQ02"
                 android:screenOrientation="landscape">
         </activity>
         <activity
-                android:name=".ui.act.subtopic.home.KitchenQ2"
+                android:name=".ui.act.subtopic.home.KitchenQ03"
                 android:screenOrientation="landscape">
         </activity>
         <activity
-                android:name=".ui.act.subtopic.home.KitchenQ3"
+                android:name=".ui.act.subtopic.home.KitchenQ04"
                 android:screenOrientation="landscape">
         </activity>
         <activity
-                android:name=".ui.act.subtopic.home.KitchenQ4"
+                android:name=".ui.act.subtopic.home.BathroomQ05"
                 android:screenOrientation="landscape">
         </activity>
         <activity
-                android:name=".ui.act.subtopic.home.BathroomQ5"
+                android:name=".ui.act.subtopic.home.BathroomQ06"
                 android:screenOrientation="landscape">
         </activity>
         <activity
-                android:name=".ui.act.subtopic.home.BathroomQ6"
+                android:name=".ui.act.subtopic.home.BathroomQ07"
                 android:screenOrientation="landscape">
         </activity>
         <activity
-                android:name=".ui.act.subtopic.home.BathroomQ7"
+                android:name=".ui.act.subtopic.home.BathroomQ08"
                 android:screenOrientation="landscape">
         </activity>
         <activity
-                android:name=".ui.act.subtopic.home.BathroomQ8"
-                android:screenOrientation="landscape">
-        </activity>
-        <activity
-                android:name=".ui.act.subtopic.home.BedroomQ9"
+                android:name=".ui.act.subtopic.home.BedroomQ09"
                 android:screenOrientation="landscape">
         </activity>
         <activity
@@ -92,10 +97,6 @@
         <activity
                 android:name=".ui.act.subtopic.home.GardenQ13"
                 android:screenOrientation="landscape">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity
                 android:name=".ui.act.subtopic.home.GardenQ14"
@@ -107,6 +108,166 @@
         </activity>
         <activity
                 android:name=".ui.act.subtopic.home.GardenQ16"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.TransportationQ17"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.TransportationQ18"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.TransportationQ19"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.TransportationQ20"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.ShopsQ21"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.ShopsQ22"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.ShopsQ23"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.ShopsQ24"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.SchoolQ25"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.SchoolQ26"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.SchoolQ27"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.SchoolQ28"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.JobsQ29"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.JobsQ30"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.JobsQ31"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.city.JobsQ32"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.SportsQ33"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.SportsQ34"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.SportsQ35"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.SportsQ36"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.MusicQ37"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.MusicQ38"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.MusicQ39"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.MusicQ40"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.DrawingQ41"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.DrawingQ42"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.DrawingQ43"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.DrawingQ44"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.OutdoorQ45"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.OutdoorQ46"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.OutdoorQ47"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.hobbies.OutdoorQ48"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.SeaQ49"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.SeaQ50"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.ForestQ51"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.ForestQ52"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.MountainsQ53"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.MountainsQ54"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.DesertQ57"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ui.act.subtopic.holiday.DesertQ58"
                 android:screenOrientation="landscape">
         </activity>
         <!--end of home-->

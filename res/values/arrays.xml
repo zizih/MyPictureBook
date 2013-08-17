@@ -1417,4 +1417,2351 @@
     <!--end of transportation q20-->
     <!--end of transportation-->
     <!--end of city-->
+
+
+    <!--WRITE BY TOOL-->
+    <integer-array name="q21_anim01">
+        <item>38</item>
+        <item>37</item>
+        <item>129</item>
+        <item>148</item>
+    </integer-array>
+    <integer-array name="q21_anim02">
+        <item>29</item>
+        <item>175</item>
+        <item>143</item>
+        <item>259</item>
+    </integer-array>
+    <integer-array name="q21_anim03">
+        <item>34</item>
+        <item>296</item>
+        <item>188</item>
+        <item>382</item>
+    </integer-array>
+    <integer-array name="q21_anim04">
+        <item>222</item>
+        <item>299</item>
+        <item>342</item>
+        <item>403</item>
+    </integer-array>
+    <integer-array name="q21_anim05">
+        <item>405</item>
+        <item>263</item>
+        <item>512</item>
+        <item>350</item>
+    </integer-array>
+    <integer-array name="q21_anim06">
+        <item>564</item>
+        <item>315</item>
+        <item>700</item>
+        <item>393</item>
+    </integer-array>
+    <integer-array name="q21_anim07">
+        <item>655</item>
+        <item>190</item>
+        <item>772</item>
+        <item>287</item>
+    </integer-array>
+    <integer-array name="q21_anim08">
+        <item>654</item>
+        <item>37</item>
+        <item>763</item>
+        <item>147</item>
+    </integer-array>
+
+
+    <integer-array name="q22_anim01">
+        <item>46</item>
+        <item>44</item>
+        <item>137</item>
+        <item>105</item>
+    </integer-array>
+    <integer-array name="q22_anim02">
+        <item>58</item>
+        <item>152</item>
+        <item>134</item>
+        <item>238</item>
+    </integer-array>
+    <integer-array name="q22_anim03">
+        <item>35</item>
+        <item>288</item>
+        <item>118</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q22_anim04">
+        <item>169</item>
+        <item>273</item>
+        <item>225</item>
+        <item>357</item>
+    </integer-array>
+    <integer-array name="q22_anim05">
+        <item>257</item>
+        <item>282</item>
+        <item>347</item>
+        <item>380</item>
+    </integer-array>
+    <integer-array name="q22_anim06">
+        <item>376</item>
+        <item>272</item>
+        <item>446</item>
+        <item>362</item>
+    </integer-array>
+    <integer-array name="q22_anim07">
+        <item>515</item>
+        <item>271</item>
+        <item>614</item>
+        <item>310</item>
+    </integer-array>
+    <integer-array name="q22_anim08">
+        <item>634</item>
+        <item>343</item>
+        <item>727</item>
+        <item>392</item>
+    </integer-array>
+    <integer-array name="q22_anim09">
+        <item>677</item>
+        <item>214</item>
+        <item>744</item>
+        <item>286</item>
+    </integer-array>
+    <integer-array name="q22_anim10">
+        <item>679</item>
+        <item>58</item>
+        <item>739</item>
+        <item>157</item>
+    </integer-array>
+
+
+    <integer-array name="q23_anim01">
+        <item>41</item>
+        <item>39</item>
+        <item>136</item>
+        <item>122</item>
+    </integer-array>
+    <integer-array name="q23_anim02">
+        <item>36</item>
+        <item>177</item>
+        <item>121</item>
+        <item>240</item>
+    </integer-array>
+    <integer-array name="q23_anim03">
+        <item>24</item>
+        <item>298</item>
+        <item>96</item>
+        <item>394</item>
+    </integer-array>
+    <integer-array name="q23_anim04">
+        <item>118</item>
+        <item>263</item>
+        <item>229</item>
+        <item>334</item>
+    </integer-array>
+    <integer-array name="q23_anim05">
+        <item>271</item>
+        <item>325</item>
+        <item>375</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="q23_anim06">
+        <item>403</item>
+        <item>270</item>
+        <item>448</item>
+        <item>340</item>
+    </integer-array>
+    <integer-array name="q23_anim07">
+        <item>504</item>
+        <item>282</item>
+        <item>604</item>
+        <item>379</item>
+    </integer-array>
+    <integer-array name="q23_anim08">
+        <item>662</item>
+        <item>302</item>
+        <item>752</item>
+        <item>367</item>
+    </integer-array>
+    <integer-array name="q23_anim09">
+        <item>667</item>
+        <item>146</item>
+        <item>749</item>
+        <item>248</item>
+    </integer-array>
+    <integer-array name="q23_anim10">
+        <item>651</item>
+        <item>41</item>
+        <item>706</item>
+        <item>106</item>
+    </integer-array>
+
+
+    <integer-array name="q24_anim01">
+        <item>39</item>
+        <item>36</item>
+        <item>129</item>
+        <item>115</item>
+    </integer-array>
+    <integer-array name="q24_anim02">
+        <item>40</item>
+        <item>163</item>
+        <item>96</item>
+        <item>261</item>
+    </integer-array>
+    <integer-array name="q24_anim03">
+        <item>42</item>
+        <item>308</item>
+        <item>145</item>
+        <item>389</item>
+    </integer-array>
+    <integer-array name="q24_anim04">
+        <item>160</item>
+        <item>271</item>
+        <item>244</item>
+        <item>370</item>
+    </integer-array>
+    <integer-array name="q24_anim05">
+        <item>298</item>
+        <item>259</item>
+        <item>382</item>
+        <item>366</item>
+    </integer-array>
+    <integer-array name="q24_anim06">
+        <item>409</item>
+        <item>264</item>
+        <item>511</item>
+        <item>396</item>
+    </integer-array>
+    <integer-array name="q24_anim07">
+        <item>535</item>
+        <item>267</item>
+        <item>633</item>
+        <item>344</item>
+    </integer-array>
+    <integer-array name="q24_anim08">
+        <item>672</item>
+        <item>302</item>
+        <item>751</item>
+        <item>370</item>
+    </integer-array>
+    <integer-array name="q24_anim09">
+        <item>666</item>
+        <item>183</item>
+        <item>754</item>
+        <item>247</item>
+    </integer-array>
+    <integer-array name="q24_anim10">
+        <item>669</item>
+        <item>34</item>
+        <item>697</item>
+        <item>126</item>
+    </integer-array>
+
+
+    <integer-array name="q25_anim01">
+        <item>51</item>
+        <item>37</item>
+        <item>135</item>
+        <item>115</item>
+    </integer-array>
+    <integer-array name="q25_anim02">
+        <item>44</item>
+        <item>171</item>
+        <item>126</item>
+        <item>253</item>
+    </integer-array>
+    <integer-array name="q25_anim03">
+        <item>36</item>
+        <item>306</item>
+        <item>155</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="q25_anim04">
+        <item>155</item>
+        <item>264</item>
+        <item>268</item>
+        <item>363</item>
+    </integer-array>
+    <integer-array name="q25_anim05">
+        <item>314</item>
+        <item>311</item>
+        <item>373</item>
+        <item>382</item>
+    </integer-array>
+    <integer-array name="q25_anim06">
+        <item>390</item>
+        <item>261</item>
+        <item>474</item>
+        <item>339</item>
+    </integer-array>
+    <integer-array name="q25_anim07">
+        <item>513</item>
+        <item>307</item>
+        <item>598</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q25_anim08">
+        <item>646</item>
+        <item>298</item>
+        <item>754</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q25_anim09">
+        <item>668</item>
+        <item>186</item>
+        <item>758</item>
+        <item>240</item>
+    </integer-array>
+    <integer-array name="q25_anim10">
+        <item>660</item>
+        <item>39</item>
+        <item>721</item>
+        <item>121</item>
+    </integer-array>
+
+
+    <integer-array name="q26_anim01">
+        <item>44</item>
+        <item>36</item>
+        <item>142</item>
+        <item>90</item>
+    </integer-array>
+    <integer-array name="q26_anim02">
+        <item>43</item>
+        <item>128</item>
+        <item>127</item>
+        <item>238</item>
+    </integer-array>
+    <integer-array name="q26_anim03">
+        <item>31</item>
+        <item>301</item>
+        <item>121</item>
+        <item>367</item>
+    </integer-array>
+    <integer-array name="q26_anim04">
+        <item>168</item>
+        <item>283</item>
+        <item>283</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q26_anim05">
+        <item>297</item>
+        <item>292</item>
+        <item>400</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q26_anim06">
+        <item>404</item>
+        <item>251</item>
+        <item>493</item>
+        <item>326</item>
+    </integer-array>
+    <integer-array name="q26_anim07">
+        <item>532</item>
+        <item>301</item>
+        <item>594</item>
+        <item>371</item>
+    </integer-array>
+    <integer-array name="q26_anim08">
+        <item>632</item>
+        <item>285</item>
+        <item>753</item>
+        <item>373</item>
+    </integer-array>
+    <integer-array name="q26_anim09">
+        <item>668</item>
+        <item>156</item>
+        <item>752</item>
+        <item>212</item>
+    </integer-array>
+    <integer-array name="q26_anim10">
+        <item>645</item>
+        <item>36</item>
+        <item>720</item>
+        <item>96</item>
+    </integer-array>
+
+
+    <integer-array name="q27_anim01">
+        <item>46</item>
+        <item>37</item>
+        <item>141</item>
+        <item>110</item>
+    </integer-array>
+    <integer-array name="q27_anim02">
+        <item>40</item>
+        <item>152</item>
+        <item>143</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="q27_anim03">
+        <item>40</item>
+        <item>282</item>
+        <item>154</item>
+        <item>377</item>
+    </integer-array>
+    <integer-array name="q27_anim04">
+        <item>211</item>
+        <item>257</item>
+        <item>293</item>
+        <item>318</item>
+    </integer-array>
+    <integer-array name="q27_anim05">
+        <item>326</item>
+        <item>327</item>
+        <item>419</item>
+        <item>393</item>
+    </integer-array>
+    <integer-array name="q27_anim06">
+        <item>423</item>
+        <item>254</item>
+        <item>482</item>
+        <item>336</item>
+    </integer-array>
+    <integer-array name="q27_anim07">
+        <item>526</item>
+        <item>268</item>
+        <item>602</item>
+        <item>369</item>
+    </integer-array>
+    <integer-array name="q27_anim08">
+        <item>648</item>
+        <item>313</item>
+        <item>733</item>
+        <item>390</item>
+    </integer-array>
+    <integer-array name="q27_anim09">
+        <item>695</item>
+        <item>187</item>
+        <item>761</item>
+        <item>265</item>
+    </integer-array>
+    <integer-array name="q27_anim10">
+        <item>660</item>
+        <item>40</item>
+        <item>707</item>
+        <item>147</item>
+    </integer-array>
+
+
+    <integer-array name="q28_anim01">
+        <item>48</item>
+        <item>37</item>
+        <item>139</item>
+        <item>120</item>
+    </integer-array>
+    <integer-array name="q28_anim02">
+        <item>36</item>
+        <item>184</item>
+        <item>136</item>
+        <item>274</item>
+    </integer-array>
+    <integer-array name="q28_anim03">
+        <item>43</item>
+        <item>326</item>
+        <item>150</item>
+        <item>399</item>
+    </integer-array>
+    <integer-array name="q28_anim04">
+        <item>185</item>
+        <item>285</item>
+        <item>270</item>
+        <item>360</item>
+    </integer-array>
+    <integer-array name="q28_anim05">
+        <item>313</item>
+        <item>325</item>
+        <item>438</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="q28_anim06">
+        <item>404</item>
+        <item>244</item>
+        <item>485</item>
+        <item>302</item>
+    </integer-array>
+    <integer-array name="q28_anim07">
+        <item>538</item>
+        <item>285</item>
+        <item>599</item>
+        <item>364</item>
+    </integer-array>
+    <integer-array name="q28_anim08">
+        <item>659</item>
+        <item>274</item>
+        <item>737</item>
+        <item>369</item>
+    </integer-array>
+    <integer-array name="q28_anim09">
+        <item>663</item>
+        <item>164</item>
+        <item>754</item>
+        <item>238</item>
+    </integer-array>
+    <integer-array name="q28_anim10">
+        <item>669</item>
+        <item>36</item>
+        <item>709</item>
+        <item>119</item>
+    </integer-array>
+
+
+    <integer-array name="q29_anim01">
+        <item>39</item>
+        <item>37</item>
+        <item>131</item>
+        <item>114</item>
+    </integer-array>
+    <integer-array name="q29_anim02">
+        <item>39</item>
+        <item>175</item>
+        <item>142</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="q29_anim03">
+        <item>36</item>
+        <item>312</item>
+        <item>148</item>
+        <item>394</item>
+    </integer-array>
+    <integer-array name="q29_anim04">
+        <item>171</item>
+        <item>286</item>
+        <item>274</item>
+        <item>361</item>
+    </integer-array>
+    <integer-array name="q29_anim05">
+        <item>305</item>
+        <item>265</item>
+        <item>412</item>
+        <item>363</item>
+    </integer-array>
+    <integer-array name="q29_anim06">
+        <item>414</item>
+        <item>279</item>
+        <item>498</item>
+        <item>387</item>
+    </integer-array>
+    <integer-array name="q29_anim07">
+        <item>535</item>
+        <item>264</item>
+        <item>626</item>
+        <item>326</item>
+    </integer-array>
+    <integer-array name="q29_anim08">
+        <item>662</item>
+        <item>331</item>
+        <item>752</item>
+        <item>382</item>
+    </integer-array>
+    <integer-array name="q29_anim09">
+        <item>660</item>
+        <item>167</item>
+        <item>774</item>
+        <item>279</item>
+    </integer-array>
+    <integer-array name="q29_anim10">
+        <item>679</item>
+        <item>35</item>
+        <item>726</item>
+        <item>140</item>
+    </integer-array>
+
+
+    <integer-array name="q30_anim01">
+        <item>46</item>
+        <item>35</item>
+        <item>142</item>
+        <item>136</item>
+    </integer-array>
+    <integer-array name="q30_anim02">
+        <item>28</item>
+        <item>170</item>
+        <item>110</item>
+        <item>250</item>
+    </integer-array>
+    <integer-array name="q30_anim03">
+        <item>40</item>
+        <item>306</item>
+        <item>179</item>
+        <item>396</item>
+    </integer-array>
+    <integer-array name="q30_anim04">
+        <item>203</item>
+        <item>255</item>
+        <item>272</item>
+        <item>362</item>
+    </integer-array>
+    <integer-array name="q30_anim05">
+        <item>288</item>
+        <item>278</item>
+        <item>378</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="q30_anim06">
+        <item>417</item>
+        <item>259</item>
+        <item>519</item>
+        <item>359</item>
+    </integer-array>
+    <integer-array name="q30_anim07">
+        <item>543</item>
+        <item>268</item>
+        <item>637</item>
+        <item>382</item>
+    </integer-array>
+    <integer-array name="q30_anim08">
+        <item>679</item>
+        <item>292</item>
+        <item>733</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q30_anim09">
+        <item>693</item>
+        <item>166</item>
+        <item>758</item>
+        <item>245</item>
+    </integer-array>
+    <integer-array name="q30_anim10">
+        <item>666</item>
+        <item>33</item>
+        <item>723</item>
+        <item>114</item>
+    </integer-array>
+
+
+    <integer-array name="q31_anim01">
+        <item>42</item>
+        <item>38</item>
+        <item>135</item>
+        <item>94</item>
+    </integer-array>
+    <integer-array name="q31_anim02">
+        <item>43</item>
+        <item>125</item>
+        <item>142</item>
+        <item>205</item>
+    </integer-array>
+    <integer-array name="q31_anim03">
+        <item>35</item>
+        <item>258</item>
+        <item>105</item>
+        <item>364</item>
+    </integer-array>
+    <integer-array name="q31_anim04">
+        <item>132</item>
+        <item>268</item>
+        <item>223</item>
+        <item>390</item>
+    </integer-array>
+    <integer-array name="q31_anim05">
+        <item>251</item>
+        <item>253</item>
+        <item>364</item>
+        <item>364</item>
+    </integer-array>
+    <integer-array name="q31_anim06">
+        <item>400</item>
+        <item>277</item>
+        <item>480</item>
+        <item>398</item>
+    </integer-array>
+    <integer-array name="q31_anim07">
+        <item>511</item>
+        <item>248</item>
+        <item>584</item>
+        <item>321</item>
+    </integer-array>
+    <integer-array name="q31_anim08">
+        <item>630</item>
+        <item>262</item>
+        <item>709</item>
+        <item>390</item>
+    </integer-array>
+    <integer-array name="q31_anim09">
+        <item>676</item>
+        <item>145</item>
+        <item>769</item>
+        <item>207</item>
+    </integer-array>
+    <integer-array name="q31_anim10">
+        <item>666</item>
+        <item>34</item>
+        <item>734</item>
+        <item>103</item>
+    </integer-array>
+
+
+    <integer-array name="q32_anim01">
+        <item>41</item>
+        <item>51</item>
+        <item>128</item>
+        <item>116</item>
+    </integer-array>
+    <integer-array name="q32_anim02">
+        <item>51</item>
+        <item>182</item>
+        <item>132</item>
+        <item>242</item>
+    </integer-array>
+    <integer-array name="q32_anim03">
+        <item>32</item>
+        <item>301</item>
+        <item>123</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="q32_anim04">
+        <item>157</item>
+        <item>279</item>
+        <item>264</item>
+        <item>378</item>
+    </integer-array>
+    <integer-array name="q32_anim05">
+        <item>286</item>
+        <item>245</item>
+        <item>397</item>
+        <item>296</item>
+    </integer-array>
+    <integer-array name="q32_anim06">
+        <item>374</item>
+        <item>357</item>
+        <item>479</item>
+        <item>406</item>
+    </integer-array>
+    <integer-array name="q32_anim07">
+        <item>506</item>
+        <item>269</item>
+        <item>598</item>
+        <item>326</item>
+    </integer-array>
+    <integer-array name="q32_anim08">
+        <item>638</item>
+        <item>270</item>
+        <item>756</item>
+        <item>368</item>
+    </integer-array>
+    <integer-array name="q32_anim09">
+        <item>662</item>
+        <item>158</item>
+        <item>760</item>
+        <item>208</item>
+    </integer-array>
+    <integer-array name="q32_anim10">
+        <item>656</item>
+        <item>30</item>
+        <item>727</item>
+        <item>113</item>
+    </integer-array>
+
+
+    <integer-array name="q33_anim01">
+        <item>57</item>
+        <item>36</item>
+        <item>130</item>
+        <item>123</item>
+    </integer-array>
+    <integer-array name="q33_anim02">
+        <item>33</item>
+        <item>182</item>
+        <item>88</item>
+        <item>245</item>
+    </integer-array>
+    <integer-array name="q33_anim03">
+        <item>36</item>
+        <item>287</item>
+        <item>133</item>
+        <item>389</item>
+    </integer-array>
+    <integer-array name="q33_anim04">
+        <item>189</item>
+        <item>316</item>
+        <item>327</item>
+        <item>399</item>
+    </integer-array>
+    <integer-array name="q33_anim05">
+        <item>335</item>
+        <item>262</item>
+        <item>403</item>
+        <item>338</item>
+    </integer-array>
+    <integer-array name="q33_anim06">
+        <item>442</item>
+        <item>306</item>
+        <item>516</item>
+        <item>382</item>
+    </integer-array>
+    <integer-array name="q33_anim07">
+        <item>528</item>
+        <item>270</item>
+        <item>610</item>
+        <item>380</item>
+    </integer-array>
+    <integer-array name="q33_anim08">
+        <item>675</item>
+        <item>313</item>
+        <item>749</item>
+        <item>392</item>
+    </integer-array>
+    <integer-array name="q33_anim09">
+        <item>687</item>
+        <item>210</item>
+        <item>764</item>
+        <item>297</item>
+    </integer-array>
+    <integer-array name="q33_anim10">
+        <item>673</item>
+        <item>53</item>
+        <item>743</item>
+        <item>163</item>
+    </integer-array>
+
+
+    <integer-array name="q34_anim01">
+        <item>49</item>
+        <item>36</item>
+        <item>156</item>
+        <item>105</item>
+    </integer-array>
+    <integer-array name="q34_anim02">
+        <item>39</item>
+        <item>176</item>
+        <item>132</item>
+        <item>263</item>
+    </integer-array>
+    <integer-array name="q34_anim03">
+        <item>39</item>
+        <item>318</item>
+        <item>138</item>
+        <item>409</item>
+    </integer-array>
+    <integer-array name="q34_anim04">
+        <item>162</item>
+        <item>299</item>
+        <item>237</item>
+        <item>386</item>
+    </integer-array>
+    <integer-array name="q34_anim05">
+        <item>261</item>
+        <item>260</item>
+        <item>353</item>
+        <item>302</item>
+    </integer-array>
+    <integer-array name="q34_anim06">
+        <item>373</item>
+        <item>312</item>
+        <item>478</item>
+        <item>377</item>
+    </integer-array>
+    <integer-array name="q34_anim07">
+        <item>533</item>
+        <item>270</item>
+        <item>595</item>
+        <item>359</item>
+    </integer-array>
+    <integer-array name="q34_anim08">
+        <item>669</item>
+        <item>314</item>
+        <item>753</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q34_anim09">
+        <item>689</item>
+        <item>167</item>
+        <item>748</item>
+        <item>259</item>
+    </integer-array>
+    <integer-array name="q34_anim10">
+        <item>680</item>
+        <item>34</item>
+        <item>726</item>
+        <item>119</item>
+    </integer-array>
+
+
+    <integer-array name="q35_anim01">
+        <item>42</item>
+        <item>34</item>
+        <item>119</item>
+        <item>78</item>
+    </integer-array>
+    <integer-array name="q35_anim02">
+        <item>40</item>
+        <item>149</item>
+        <item>128</item>
+        <item>187</item>
+    </integer-array>
+    <integer-array name="q35_anim03">
+        <item>40</item>
+        <item>238</item>
+        <item>101</item>
+        <item>398</item>
+    </integer-array>
+    <integer-array name="q35_anim04">
+        <item>138</item>
+        <item>258</item>
+        <item>233</item>
+        <item>379</item>
+    </integer-array>
+    <integer-array name="q35_anim05">
+        <item>259</item>
+        <item>298</item>
+        <item>336</item>
+        <item>394</item>
+    </integer-array>
+    <integer-array name="q35_anim06">
+        <item>386</item>
+        <item>248</item>
+        <item>471</item>
+        <item>360</item>
+    </integer-array>
+    <integer-array name="q35_anim07">
+        <item>518</item>
+        <item>292</item>
+        <item>613</item>
+        <item>387</item>
+    </integer-array>
+    <integer-array name="q35_anim08">
+        <item>653</item>
+        <item>280</item>
+        <item>740</item>
+        <item>375</item>
+    </integer-array>
+    <integer-array name="q35_anim09">
+        <item>677</item>
+        <item>149</item>
+        <item>765</item>
+        <item>226</item>
+    </integer-array>
+    <integer-array name="q35_anim10">
+        <item>660</item>
+        <item>60</item>
+        <item>753</item>
+        <item>117</item>
+    </integer-array>
+
+
+    <integer-array name="q36_anim01">
+        <item>51</item>
+        <item>37</item>
+        <item>128</item>
+        <item>129</item>
+    </integer-array>
+    <integer-array name="q36_anim02">
+        <item>19</item>
+        <item>180</item>
+        <item>141</item>
+        <item>238</item>
+    </integer-array>
+    <integer-array name="q36_anim03">
+        <item>36</item>
+        <item>305</item>
+        <item>131</item>
+        <item>387</item>
+    </integer-array>
+    <integer-array name="q36_anim04">
+        <item>176</item>
+        <item>262</item>
+        <item>242</item>
+        <item>321</item>
+    </integer-array>
+    <integer-array name="q36_anim05">
+        <item>292</item>
+        <item>306</item>
+        <item>370</item>
+        <item>389</item>
+    </integer-array>
+    <integer-array name="q36_anim06">
+        <item>393</item>
+        <item>251</item>
+        <item>464</item>
+        <item>371</item>
+    </integer-array>
+    <integer-array name="q36_anim07">
+        <item>517</item>
+        <item>266</item>
+        <item>595</item>
+        <item>372</item>
+    </integer-array>
+    <integer-array name="q36_anim08">
+        <item>636</item>
+        <item>325</item>
+        <item>737</item>
+        <item>388</item>
+    </integer-array>
+    <integer-array name="q36_anim09">
+        <item>669</item>
+        <item>198</item>
+        <item>776</item>
+        <item>268</item>
+    </integer-array>
+    <integer-array name="q36_anim10">
+        <item>672</item>
+        <item>37</item>
+        <item>740</item>
+        <item>142</item>
+    </integer-array>
+
+
+    <integer-array name="q37_anim01">
+        <item>47</item>
+        <item>38</item>
+        <item>135</item>
+        <item>112</item>
+    </integer-array>
+    <integer-array name="q37_anim02">
+        <item>61</item>
+        <item>149</item>
+        <item>160</item>
+        <item>242</item>
+    </integer-array>
+    <integer-array name="q37_anim03">
+        <item>35</item>
+        <item>240</item>
+        <item>119</item>
+        <item>408</item>
+    </integer-array>
+    <integer-array name="q37_anim04">
+        <item>170</item>
+        <item>262</item>
+        <item>277</item>
+        <item>330</item>
+    </integer-array>
+    <integer-array name="q37_anim05">
+        <item>280</item>
+        <item>347</item>
+        <item>379</item>
+        <item>399</item>
+    </integer-array>
+    <integer-array name="q37_anim06">
+        <item>409</item>
+        <item>256</item>
+        <item>487</item>
+        <item>311</item>
+    </integer-array>
+    <integer-array name="q37_anim07">
+        <item>519</item>
+        <item>302</item>
+        <item>631</item>
+        <item>371</item>
+    </integer-array>
+    <integer-array name="q37_anim08">
+        <item>674</item>
+        <item>306</item>
+        <item>748</item>
+        <item>376</item>
+    </integer-array>
+    <integer-array name="q37_anim09">
+        <item>679</item>
+        <item>197</item>
+        <item>778</item>
+        <item>292</item>
+    </integer-array>
+    <integer-array name="q37_anim10">
+        <item>669</item>
+        <item>33</item>
+        <item>736</item>
+        <item>145</item>
+    </integer-array>
+
+
+    <integer-array name="q38_anim01">
+        <item>45</item>
+        <item>38</item>
+        <item>118</item>
+        <item>113</item>
+    </integer-array>
+    <integer-array name="q38_anim02">
+        <item>39</item>
+        <item>152</item>
+        <item>134</item>
+        <item>237</item>
+    </integer-array>
+    <integer-array name="q38_anim03">
+        <item>73</item>
+        <item>281</item>
+        <item>149</item>
+        <item>383</item>
+    </integer-array>
+    <integer-array name="q38_anim04">
+        <item>170</item>
+        <item>243</item>
+        <item>234</item>
+        <item>342</item>
+    </integer-array>
+    <integer-array name="q38_anim05">
+        <item>282</item>
+        <item>284</item>
+        <item>395</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q38_anim06">
+        <item>417</item>
+        <item>241</item>
+        <item>566</item>
+        <item>306</item>
+    </integer-array>
+    <integer-array name="q38_anim07">
+        <item>531</item>
+        <item>327</item>
+        <item>653</item>
+        <item>389</item>
+    </integer-array>
+    <integer-array name="q38_anim08">
+        <item>631</item>
+        <item>247</item>
+        <item>760</item>
+        <item>326</item>
+    </integer-array>
+    <integer-array name="q38_anim09">
+        <item>661</item>
+        <item>133</item>
+        <item>746</item>
+        <item>221</item>
+    </integer-array>
+    <integer-array name="q38_anim10">
+        <item>653</item>
+        <item>36</item>
+        <item>720</item>
+        <item>106</item>
+    </integer-array>
+
+
+    <integer-array name="q39_anim01">
+        <item>49</item>
+        <item>32</item>
+        <item>131</item>
+        <item>113</item>
+    </integer-array>
+    <integer-array name="q39_anim02">
+        <item>40</item>
+        <item>164</item>
+        <item>134</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="q39_anim03">
+        <item>32</item>
+        <item>272</item>
+        <item>95</item>
+        <item>377</item>
+    </integer-array>
+    <integer-array name="q39_anim04">
+        <item>135</item>
+        <item>261</item>
+        <item>244</item>
+        <item>338</item>
+    </integer-array>
+    <integer-array name="q39_anim05">
+        <item>295</item>
+        <item>265</item>
+        <item>379</item>
+        <item>364</item>
+    </integer-array>
+    <integer-array name="q39_anim06">
+        <item>419</item>
+        <item>270</item>
+        <item>485</item>
+        <item>377</item>
+    </integer-array>
+    <integer-array name="q39_anim07">
+        <item>535</item>
+        <item>248</item>
+        <item>598</item>
+        <item>325</item>
+    </integer-array>
+    <integer-array name="q39_anim08">
+        <item>641</item>
+        <item>318</item>
+        <item>733</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q39_anim09">
+        <item>694</item>
+        <item>193</item>
+        <item>764</item>
+        <item>284</item>
+    </integer-array>
+    <integer-array name="q39_anim10">
+        <item>653</item>
+        <item>51</item>
+        <item>725</item>
+        <item>139</item>
+    </integer-array>
+
+
+    <integer-array name="q40_anim01">
+        <item>42</item>
+        <item>37</item>
+        <item>135</item>
+        <item>105</item>
+    </integer-array>
+    <integer-array name="q40_anim02">
+        <item>36</item>
+        <item>176</item>
+        <item>129</item>
+        <item>268</item>
+    </integer-array>
+    <integer-array name="q40_anim03">
+        <item>39</item>
+        <item>311</item>
+        <item>112</item>
+        <item>409</item>
+    </integer-array>
+    <integer-array name="q40_anim04">
+        <item>160</item>
+        <item>277</item>
+        <item>258</item>
+        <item>395</item>
+    </integer-array>
+    <integer-array name="q40_anim05">
+        <item>298</item>
+        <item>257</item>
+        <item>364</item>
+        <item>367</item>
+    </integer-array>
+    <integer-array name="q40_anim06">
+        <item>395</item>
+        <item>253</item>
+        <item>487</item>
+        <item>353</item>
+    </integer-array>
+    <integer-array name="q40_anim07">
+        <item>518</item>
+        <item>300</item>
+        <item>568</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q40_anim08">
+        <item>615</item>
+        <item>306</item>
+        <item>734</item>
+        <item>379</item>
+    </integer-array>
+    <integer-array name="q40_anim09">
+        <item>697</item>
+        <item>190</item>
+        <item>750</item>
+        <item>262</item>
+    </integer-array>
+    <integer-array name="q40_anim10">
+        <item>647</item>
+        <item>60</item>
+        <item>739</item>
+        <item>139</item>
+    </integer-array>
+
+
+    <integer-array name="q41_anim01">
+        <item>42</item>
+        <item>39</item>
+        <item>142</item>
+        <item>116</item>
+    </integer-array>
+    <integer-array name="q41_anim02">
+        <item>40</item>
+        <item>177</item>
+        <item>134</item>
+        <item>235</item>
+    </integer-array>
+    <integer-array name="q41_anim03">
+        <item>36</item>
+        <item>290</item>
+        <item>120</item>
+        <item>398</item>
+    </integer-array>
+    <integer-array name="q41_anim04">
+        <item>156</item>
+        <item>256</item>
+        <item>240</item>
+        <item>313</item>
+    </integer-array>
+    <integer-array name="q41_anim05">
+        <item>283</item>
+        <item>313</item>
+        <item>346</item>
+        <item>403</item>
+    </integer-array>
+    <integer-array name="q41_anim06">
+        <item>332</item>
+        <item>262</item>
+        <item>425</item>
+        <item>326</item>
+    </integer-array>
+    <integer-array name="q41_anim07">
+        <item>487</item>
+        <item>279</item>
+        <item>564</item>
+        <item>361</item>
+    </integer-array>
+    <integer-array name="q41_anim08">
+        <item>613</item>
+        <item>300</item>
+        <item>732</item>
+        <item>373</item>
+    </integer-array>
+    <integer-array name="q41_anim09">
+        <item>664</item>
+        <item>170</item>
+        <item>774</item>
+        <item>260</item>
+    </integer-array>
+    <integer-array name="q41_anim10">
+        <item>648</item>
+        <item>32</item>
+        <item>726</item>
+        <item>117</item>
+    </integer-array>
+
+
+    <integer-array name="q42_anim01">
+        <item>43</item>
+        <item>39</item>
+        <item>150</item>
+        <item>136</item>
+    </integer-array>
+    <integer-array name="q42_anim02">
+        <item>36</item>
+        <item>190</item>
+        <item>113</item>
+        <item>252</item>
+    </integer-array>
+    <integer-array name="q42_anim03">
+        <item>34</item>
+        <item>315</item>
+        <item>169</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="q42_anim04">
+        <item>193</item>
+        <item>268</item>
+        <item>298</item>
+        <item>367</item>
+    </integer-array>
+    <integer-array name="q42_anim05">
+        <item>330</item>
+        <item>292</item>
+        <item>431</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="q42_anim06">
+        <item>444</item>
+        <item>261</item>
+        <item>532</item>
+        <item>334</item>
+    </integer-array>
+    <integer-array name="q42_anim07">
+        <item>570</item>
+        <item>314</item>
+        <item>641</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q42_anim08">
+        <item>670</item>
+        <item>266</item>
+        <item>754</item>
+        <item>379</item>
+    </integer-array>
+    <integer-array name="q42_anim09">
+        <item>689</item>
+        <item>136</item>
+        <item>758</item>
+        <item>207</item>
+    </integer-array>
+    <integer-array name="q42_anim10">
+        <item>660</item>
+        <item>36</item>
+        <item>708</item>
+        <item>83</item>
+    </integer-array>
+
+
+    <integer-array name="q43_anim01">
+        <item>37</item>
+        <item>32</item>
+        <item>138</item>
+        <item>81</item>
+    </integer-array>
+    <integer-array name="q43_anim02">
+        <item>32</item>
+        <item>136</item>
+        <item>126</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="q43_anim03">
+        <item>36</item>
+        <item>319</item>
+        <item>145</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q43_anim04">
+        <item>151</item>
+        <item>258</item>
+        <item>242</item>
+        <item>289</item>
+    </integer-array>
+    <integer-array name="q43_anim05">
+        <item>205</item>
+        <item>350</item>
+        <item>324</item>
+        <item>411</item>
+    </integer-array>
+    <integer-array name="q43_anim06">
+        <item>374</item>
+        <item>267</item>
+        <item>453</item>
+        <item>332</item>
+    </integer-array>
+    <integer-array name="q43_anim07">
+        <item>501</item>
+        <item>283</item>
+        <item>590</item>
+        <item>376</item>
+    </integer-array>
+    <integer-array name="q43_anim08">
+        <item>634</item>
+        <item>287</item>
+        <item>724</item>
+        <item>376</item>
+    </integer-array>
+    <integer-array name="q43_anim09">
+        <item>684</item>
+        <item>187</item>
+        <item>763</item>
+        <item>248</item>
+    </integer-array>
+    <integer-array name="q43_anim10">
+        <item>655</item>
+        <item>44</item>
+        <item>719</item>
+        <item>130</item>
+    </integer-array>
+
+
+    <integer-array name="q44_anim01">
+        <item>37</item>
+        <item>42</item>
+        <item>136</item>
+        <item>142</item>
+    </integer-array>
+    <integer-array name="q44_anim02">
+        <item>31</item>
+        <item>186</item>
+        <item>128</item>
+        <item>270</item>
+    </integer-array>
+    <integer-array name="q44_anim03">
+        <item>37</item>
+        <item>301</item>
+        <item>183</item>
+        <item>380</item>
+    </integer-array>
+    <integer-array name="q44_anim04">
+        <item>196</item>
+        <item>272</item>
+        <item>279</item>
+        <item>388</item>
+    </integer-array>
+    <integer-array name="q44_anim05">
+        <item>291</item>
+        <item>246</item>
+        <item>376</item>
+        <item>331</item>
+    </integer-array>
+    <integer-array name="q44_anim06">
+        <item>407</item>
+        <item>303</item>
+        <item>494</item>
+        <item>393</item>
+    </integer-array>
+    <integer-array name="q44_anim07">
+        <item>497</item>
+        <item>269</item>
+        <item>638</item>
+        <item>316</item>
+    </integer-array>
+    <integer-array name="q44_anim08">
+        <item>677</item>
+        <item>307</item>
+        <item>760</item>
+        <item>377</item>
+    </integer-array>
+    <integer-array name="q44_anim09">
+        <item>683</item>
+        <item>167</item>
+        <item>761</item>
+        <item>241</item>
+    </integer-array>
+    <integer-array name="q44_anim10">
+        <item>642</item>
+        <item>36</item>
+        <item>721</item>
+        <item>109</item>
+    </integer-array>
+
+
+    <integer-array name="q45_anim01">
+        <item>49</item>
+        <item>38</item>
+        <item>161</item>
+        <item>118</item>
+    </integer-array>
+    <integer-array name="q45_anim02">
+        <item>27</item>
+        <item>184</item>
+        <item>130</item>
+        <item>250</item>
+    </integer-array>
+    <integer-array name="q45_anim03">
+        <item>22</item>
+        <item>312</item>
+        <item>133</item>
+        <item>388</item>
+    </integer-array>
+    <integer-array name="q45_anim04">
+        <item>180</item>
+        <item>302</item>
+        <item>279</item>
+        <item>380</item>
+    </integer-array>
+    <integer-array name="q45_anim05">
+        <item>294</item>
+        <item>267</item>
+        <item>397</item>
+        <item>364</item>
+    </integer-array>
+    <integer-array name="q45_anim06">
+        <item>420</item>
+        <item>289</item>
+        <item>509</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="q45_anim07">
+        <item>504</item>
+        <item>253</item>
+        <item>599</item>
+        <item>356</item>
+    </integer-array>
+    <integer-array name="q45_anim08">
+        <item>671</item>
+        <item>294</item>
+        <item>751</item>
+        <item>375</item>
+    </integer-array>
+    <integer-array name="q45_anim09">
+        <item>666</item>
+        <item>162</item>
+        <item>747</item>
+        <item>240</item>
+    </integer-array>
+    <integer-array name="q45_anim10">
+        <item>656</item>
+        <item>37</item>
+        <item>718</item>
+        <item>136</item>
+    </integer-array>
+
+
+    <integer-array name="q46_anim01">
+        <item>35</item>
+        <item>39</item>
+        <item>133</item>
+        <item>140</item>
+    </integer-array>
+    <integer-array name="q46_anim02">
+        <item>40</item>
+        <item>193</item>
+        <item>159</item>
+        <item>273</item>
+    </integer-array>
+    <integer-array name="q46_anim03">
+        <item>33</item>
+        <item>322</item>
+        <item>129</item>
+        <item>401</item>
+    </integer-array>
+    <integer-array name="q46_anim04">
+        <item>164</item>
+        <item>288</item>
+        <item>268</item>
+        <item>378</item>
+    </integer-array>
+    <integer-array name="q46_anim05">
+        <item>295</item>
+        <item>275</item>
+        <item>384</item>
+        <item>385</item>
+    </integer-array>
+    <integer-array name="q46_anim06">
+        <item>410</item>
+        <item>276</item>
+        <item>510</item>
+        <item>386</item>
+    </integer-array>
+    <integer-array name="q46_anim07">
+        <item>562</item>
+        <item>267</item>
+        <item>646</item>
+        <item>375</item>
+    </integer-array>
+    <integer-array name="q46_anim08">
+        <item>686</item>
+        <item>290</item>
+        <item>769</item>
+        <item>385</item>
+    </integer-array>
+    <integer-array name="q46_anim09">
+        <item>686</item>
+        <item>160</item>
+        <item>764</item>
+        <item>245</item>
+    </integer-array>
+    <integer-array name="q46_anim10">
+        <item>659</item>
+        <item>40</item>
+        <item>722</item>
+        <item>109</item>
+    </integer-array>
+
+
+    <integer-array name="q47_anim01">
+        <item>45</item>
+        <item>40</item>
+        <item>144</item>
+        <item>138</item>
+    </integer-array>
+    <integer-array name="q47_anim02">
+        <item>38</item>
+        <item>190</item>
+        <item>123</item>
+        <item>273</item>
+    </integer-array>
+    <integer-array name="q47_anim03">
+        <item>39</item>
+        <item>321</item>
+        <item>149</item>
+        <item>405</item>
+    </integer-array>
+    <integer-array name="q47_anim04">
+        <item>166</item>
+        <item>292</item>
+        <item>262</item>
+        <item>393</item>
+    </integer-array>
+    <integer-array name="q47_anim05">
+        <item>283</item>
+        <item>262</item>
+        <item>368</item>
+        <item>354</item>
+    </integer-array>
+    <integer-array name="q47_anim06">
+        <item>405</item>
+        <item>290</item>
+        <item>490</item>
+        <item>401</item>
+    </integer-array>
+    <integer-array name="q47_anim07">
+        <item>497</item>
+        <item>245</item>
+        <item>558</item>
+        <item>322</item>
+    </integer-array>
+    <integer-array name="q47_anim08">
+        <item>588</item>
+        <item>291</item>
+        <item>646</item>
+        <item>398</item>
+    </integer-array>
+    <integer-array name="q47_anim09">
+        <item>684</item>
+        <item>231</item>
+        <item>759</item>
+        <item>348</item>
+    </integer-array>
+    <integer-array name="q47_anim10">
+        <item>654</item>
+        <item>27</item>
+        <item>733</item>
+        <item>140</item>
+    </integer-array>
+
+
+    <integer-array name="q48_anim01">
+        <item>45</item>
+        <item>30</item>
+        <item>146</item>
+        <item>142</item>
+    </integer-array>
+    <integer-array name="q48_anim02">
+        <item>32</item>
+        <item>185</item>
+        <item>132</item>
+        <item>279</item>
+    </integer-array>
+    <integer-array name="q48_anim03">
+        <item>35</item>
+        <item>320</item>
+        <item>141</item>
+        <item>403</item>
+    </integer-array>
+    <integer-array name="q48_anim04">
+        <item>165</item>
+        <item>284</item>
+        <item>297</item>
+        <item>402</item>
+    </integer-array>
+    <integer-array name="q48_anim05">
+        <item>323</item>
+        <item>281</item>
+        <item>386</item>
+        <item>340</item>
+    </integer-array>
+    <integer-array name="q48_anim06">
+        <item>417</item>
+        <item>315</item>
+        <item>506</item>
+        <item>392</item>
+    </integer-array>
+    <integer-array name="q48_anim07">
+        <item>541</item>
+        <item>247</item>
+        <item>609</item>
+        <item>384</item>
+    </integer-array>
+    <integer-array name="q48_anim08">
+        <item>669</item>
+        <item>275</item>
+        <item>749</item>
+        <item>374</item>
+    </integer-array>
+    <integer-array name="q48_anim09">
+        <item>691</item>
+        <item>140</item>
+        <item>745</item>
+        <item>218</item>
+    </integer-array>
+    <integer-array name="q48_anim10">
+        <item>669</item>
+        <item>21</item>
+        <item>713</item>
+        <item>90</item>
+    </integer-array>
+
+
+    <integer-array name="q49_anim01">
+        <item>49</item>
+        <item>35</item>
+        <item>150</item>
+        <item>135</item>
+    </integer-array>
+    <integer-array name="q49_anim02">
+        <item>35</item>
+        <item>191</item>
+        <item>115</item>
+        <item>246</item>
+    </integer-array>
+    <integer-array name="q49_anim03">
+        <item>36</item>
+        <item>309</item>
+        <item>134</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="q49_anim04">
+        <item>169</item>
+        <item>269</item>
+        <item>246</item>
+        <item>390</item>
+    </integer-array>
+    <integer-array name="q49_anim05">
+        <item>277</item>
+        <item>315</item>
+        <item>392</item>
+        <item>397</item>
+    </integer-array>
+    <integer-array name="q49_anim06">
+        <item>373</item>
+        <item>270</item>
+        <item>488</item>
+        <item>351</item>
+    </integer-array>
+    <integer-array name="q49_anim07">
+        <item>525</item>
+        <item>270</item>
+        <item>606</item>
+        <item>394</item>
+    </integer-array>
+    <integer-array name="q49_anim08">
+        <item>663</item>
+        <item>309</item>
+        <item>735</item>
+        <item>394</item>
+    </integer-array>
+    <integer-array name="q49_anim09">
+        <item>682</item>
+        <item>139</item>
+        <item>757</item>
+        <item>268</item>
+    </integer-array>
+    <integer-array name="q49_anim10">
+        <item>662</item>
+        <item>42</item>
+        <item>724</item>
+        <item>104</item>
+    </integer-array>
+
+
+    <integer-array name="q50_anim01">
+        <item>43</item>
+        <item>43</item>
+        <item>133</item>
+        <item>113</item>
+    </integer-array>
+    <integer-array name="q50_anim02">
+        <item>33</item>
+        <item>172</item>
+        <item>120</item>
+        <item>237</item>
+    </integer-array>
+    <integer-array name="q50_anim03">
+        <item>34</item>
+        <item>304</item>
+        <item>153</item>
+        <item>397</item>
+    </integer-array>
+    <integer-array name="q50_anim04">
+        <item>183</item>
+        <item>270</item>
+        <item>278</item>
+        <item>359</item>
+    </integer-array>
+    <integer-array name="q50_anim05">
+        <item>294</item>
+        <item>299</item>
+        <item>373</item>
+        <item>397</item>
+    </integer-array>
+    <integer-array name="q50_anim06">
+        <item>388</item>
+        <item>269</item>
+        <item>490</item>
+        <item>375</item>
+    </integer-array>
+    <integer-array name="q50_anim07">
+        <item>516</item>
+        <item>307</item>
+        <item>632</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q50_anim08">
+        <item>663</item>
+        <item>310</item>
+        <item>748</item>
+        <item>377</item>
+    </integer-array>
+    <integer-array name="q50_anim09">
+        <item>668</item>
+        <item>194</item>
+        <item>769</item>
+        <item>275</item>
+    </integer-array>
+    <integer-array name="q50_anim10">
+        <item>658</item>
+        <item>44</item>
+        <item>746</item>
+        <item>150</item>
+    </integer-array>
+
+
+    <integer-array name="q51_anim01">
+        <item>42</item>
+        <item>31</item>
+        <item>138</item>
+        <item>134</item>
+    </integer-array>
+    <integer-array name="q51_anim02">
+        <item>36</item>
+        <item>199</item>
+        <item>120</item>
+        <item>281</item>
+    </integer-array>
+    <integer-array name="q51_anim03">
+        <item>51</item>
+        <item>330</item>
+        <item>159</item>
+        <item>398</item>
+    </integer-array>
+    <integer-array name="q51_anim04">
+        <item>168</item>
+        <item>277</item>
+        <item>266</item>
+        <item>392</item>
+    </integer-array>
+    <integer-array name="q51_anim05">
+        <item>298</item>
+        <item>274</item>
+        <item>402</item>
+        <item>335</item>
+    </integer-array>
+    <integer-array name="q51_anim06">
+        <item>424</item>
+        <item>294</item>
+        <item>514</item>
+        <item>384</item>
+    </integer-array>
+    <integer-array name="q51_anim07">
+        <item>537</item>
+        <item>248</item>
+        <item>606</item>
+        <item>351</item>
+    </integer-array>
+    <integer-array name="q51_anim08">
+        <item>665</item>
+        <item>313</item>
+        <item>761</item>
+        <item>377</item>
+    </integer-array>
+    <integer-array name="q51_anim09">
+        <item>677</item>
+        <item>165</item>
+        <item>776</item>
+        <item>259</item>
+    </integer-array>
+    <integer-array name="q51_anim10">
+        <item>667</item>
+        <item>31</item>
+        <item>727</item>
+        <item>147</item>
+    </integer-array>
+
+
+    <integer-array name="q52_anim01">
+        <item>42</item>
+        <item>38</item>
+        <item>142</item>
+        <item>131</item>
+    </integer-array>
+    <integer-array name="q52_anim02">
+        <item>37</item>
+        <item>171</item>
+        <item>131</item>
+        <item>239</item>
+    </integer-array>
+    <integer-array name="q52_anim03">
+        <item>28</item>
+        <item>328</item>
+        <item>144</item>
+        <item>402</item>
+    </integer-array>
+    <integer-array name="q52_anim04">
+        <item>135</item>
+        <item>281</item>
+        <item>226</item>
+        <item>358</item>
+    </integer-array>
+    <integer-array name="q52_anim05">
+        <item>265</item>
+        <item>333</item>
+        <item>403</item>
+        <item>384</item>
+    </integer-array>
+    <integer-array name="q52_anim06">
+        <item>361</item>
+        <item>247</item>
+        <item>462</item>
+        <item>327</item>
+    </integer-array>
+    <integer-array name="q52_anim07">
+        <item>489</item>
+        <item>317</item>
+        <item>600</item>
+        <item>392</item>
+    </integer-array>
+    <integer-array name="q52_anim08">
+        <item>599</item>
+        <item>281</item>
+        <item>746</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q52_anim09">
+        <item>662</item>
+        <item>211</item>
+        <item>754</item>
+        <item>269</item>
+    </integer-array>
+    <integer-array name="q52_anim10">
+        <item>664</item>
+        <item>52</item>
+        <item>750</item>
+        <item>148</item>
+    </integer-array>
+
+
+    <integer-array name="q53_anim01">
+        <item>48</item>
+        <item>37</item>
+        <item>153</item>
+        <item>122</item>
+    </integer-array>
+    <integer-array name="q53_anim02">
+        <item>23</item>
+        <item>167</item>
+        <item>148</item>
+        <item>238</item>
+    </integer-array>
+    <integer-array name="q53_anim03">
+        <item>38</item>
+        <item>302</item>
+        <item>128</item>
+        <item>366</item>
+    </integer-array>
+    <integer-array name="q53_anim04">
+        <item>153</item>
+        <item>303</item>
+        <item>282</item>
+        <item>382</item>
+    </integer-array>
+    <integer-array name="q53_anim05">
+        <item>252</item>
+        <item>268</item>
+        <item>374</item>
+        <item>328</item>
+    </integer-array>
+    <integer-array name="q53_anim06">
+        <item>420</item>
+        <item>298</item>
+        <item>532</item>
+        <item>387</item>
+    </integer-array>
+    <integer-array name="q53_anim07">
+        <item>541</item>
+        <item>246</item>
+        <item>651</item>
+        <item>299</item>
+    </integer-array>
+    <integer-array name="q53_anim08">
+        <item>692</item>
+        <item>308</item>
+        <item>775</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q53_anim09">
+        <item>685</item>
+        <item>194</item>
+        <item>768</item>
+        <item>251</item>
+    </integer-array>
+    <integer-array name="q53_anim10">
+        <item>669</item>
+        <item>47</item>
+        <item>748</item>
+        <item>123</item>
+    </integer-array>
+
+
+    <integer-array name="q54_anim01">
+        <item>42</item>
+        <item>43</item>
+        <item>160</item>
+        <item>131</item>
+    </integer-array>
+    <integer-array name="q54_anim02">
+        <item>39</item>
+        <item>166</item>
+        <item>146</item>
+        <item>248</item>
+    </integer-array>
+    <integer-array name="q54_anim03">
+        <item>39</item>
+        <item>309</item>
+        <item>154</item>
+        <item>378</item>
+    </integer-array>
+    <integer-array name="q54_anim04">
+        <item>176</item>
+        <item>285</item>
+        <item>278</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q54_anim05">
+        <item>290</item>
+        <item>263</item>
+        <item>384</item>
+        <item>316</item>
+    </integer-array>
+    <integer-array name="q54_anim06">
+        <item>434</item>
+        <item>297</item>
+        <item>501</item>
+        <item>379</item>
+    </integer-array>
+    <integer-array name="q54_anim07">
+        <item>521</item>
+        <item>252</item>
+        <item>617</item>
+        <item>348</item>
+    </integer-array>
+    <integer-array name="q54_anim08">
+        <item>668</item>
+        <item>302</item>
+        <item>772</item>
+        <item>364</item>
+    </integer-array>
+    <integer-array name="q54_anim09">
+        <item>679</item>
+        <item>186</item>
+        <item>789</item>
+        <item>256</item>
+    </integer-array>
+    <integer-array name="q54_anim10">
+        <item>669</item>
+        <item>68</item>
+        <item>738</item>
+        <item>140</item>
+    </integer-array>
+
+
+    <integer-array name="q55_anim01">
+        <item>50</item>
+        <item>35</item>
+        <item>132</item>
+        <item>133</item>
+    </integer-array>
+    <integer-array name="q55_anim02">
+        <item>49</item>
+        <item>190</item>
+        <item>138</item>
+        <item>261</item>
+    </integer-array>
+    <integer-array name="q55_anim03">
+        <item>37</item>
+        <item>303</item>
+        <item>117</item>
+        <item>393</item>
+    </integer-array>
+    <integer-array name="q55_anim04">
+        <item>152</item>
+        <item>292</item>
+        <item>248</item>
+        <item>403</item>
+    </integer-array>
+    <integer-array name="q55_anim05">
+        <item>265</item>
+        <item>273</item>
+        <item>366</item>
+        <item>365</item>
+    </integer-array>
+    <integer-array name="q55_anim06">
+        <item>419</item>
+        <item>291</item>
+        <item>487</item>
+        <item>393</item>
+    </integer-array>
+    <integer-array name="q55_anim07">
+        <item>527</item>
+        <item>252</item>
+        <item>613</item>
+        <item>352</item>
+    </integer-array>
+    <integer-array name="q55_anim08">
+        <item>649</item>
+        <item>308</item>
+        <item>759</item>
+        <item>376</item>
+    </integer-array>
+    <integer-array name="q55_anim09">
+        <item>681</item>
+        <item>151</item>
+        <item>767</item>
+        <item>252</item>
+    </integer-array>
+    <integer-array name="q55_anim10">
+        <item>663</item>
+        <item>34</item>
+        <item>704</item>
+        <item>113</item>
+    </integer-array>
+
+
+    <integer-array name="q56_anim01">
+        <item>51</item>
+        <item>37</item>
+        <item>146</item>
+        <item>135</item>
+    </integer-array>
+    <integer-array name="q56_anim02">
+        <item>32</item>
+        <item>191</item>
+        <item>104</item>
+        <item>270</item>
+    </integer-array>
+    <integer-array name="q56_anim03">
+        <item>40</item>
+        <item>321</item>
+        <item>162</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q56_anim04">
+        <item>152</item>
+        <item>265</item>
+        <item>273</item>
+        <item>374</item>
+    </integer-array>
+    <integer-array name="q56_anim05">
+        <item>309</item>
+        <item>298</item>
+        <item>388</item>
+        <item>396</item>
+    </integer-array>
+    <integer-array name="q56_anim06">
+        <item>412</item>
+        <item>268</item>
+        <item>503</item>
+        <item>323</item>
+    </integer-array>
+    <integer-array name="q56_anim07">
+        <item>538</item>
+        <item>314</item>
+        <item>635</item>
+        <item>389</item>
+    </integer-array>
+    <integer-array name="q56_anim08">
+        <item>668</item>
+        <item>284</item>
+        <item>767</item>
+        <item>347</item>
+    </integer-array>
+    <integer-array name="q56_anim09">
+        <item>692</item>
+        <item>166</item>
+        <item>765</item>
+        <item>242</item>
+    </integer-array>
+    <integer-array name="q56_anim10">
+        <item>655</item>
+        <item>36</item>
+        <item>699</item>
+        <item>120</item>
+    </integer-array>
+
+
+    <integer-array name="q57_anim01">
+        <item>45</item>
+        <item>34</item>
+        <item>131</item>
+        <item>119</item>
+    </integer-array>
+    <integer-array name="q57_anim02">
+        <item>65</item>
+        <item>182</item>
+        <item>139</item>
+        <item>271</item>
+    </integer-array>
+    <integer-array name="q57_anim03">
+        <item>38</item>
+        <item>310</item>
+        <item>141</item>
+        <item>387</item>
+    </integer-array>
+    <integer-array name="q57_anim04">
+        <item>172</item>
+        <item>261</item>
+        <item>267</item>
+        <item>360</item>
+    </integer-array>
+    <integer-array name="q57_anim05">
+        <item>296</item>
+        <item>292</item>
+        <item>371</item>
+        <item>396</item>
+    </integer-array>
+    <integer-array name="q57_anim06">
+        <item>394</item>
+        <item>277</item>
+        <item>487</item>
+        <item>354</item>
+    </integer-array>
+    <integer-array name="q57_anim07">
+        <item>535</item>
+        <item>305</item>
+        <item>593</item>
+        <item>380</item>
+    </integer-array>
+    <integer-array name="q57_anim08">
+        <item>657</item>
+        <item>317</item>
+        <item>756</item>
+        <item>381</item>
+    </integer-array>
+    <integer-array name="q57_anim09">
+        <item>679</item>
+        <item>172</item>
+        <item>781</item>
+        <item>267</item>
+    </integer-array>
+    <integer-array name="q57_anim10">
+        <item>685</item>
+        <item>32</item>
+        <item>721</item>
+        <item>131</item>
+    </integer-array>
+
+
+    <integer-array name="q58_anim01">
+        <item>54</item>
+        <item>52</item>
+        <item>114</item>
+        <item>135</item>
+    </integer-array>
+    <integer-array name="q58_anim02">
+        <item>71</item>
+        <item>175</item>
+        <item>132</item>
+        <item>257</item>
+    </integer-array>
+    <integer-array name="q58_anim03">
+        <item>44</item>
+        <item>308</item>
+        <item>121</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="q58_anim04">
+        <item>173</item>
+        <item>270</item>
+        <item>240</item>
+        <item>367</item>
+    </integer-array>
+    <integer-array name="q58_anim05">
+        <item>289</item>
+        <item>294</item>
+        <item>361</item>
+        <item>394</item>
+    </integer-array>
+    <integer-array name="q58_anim06">
+        <item>398</item>
+        <item>262</item>
+        <item>483</item>
+        <item>357</item>
+    </integer-array>
+    <integer-array name="q58_anim07">
+        <item>535</item>
+        <item>293</item>
+        <item>599</item>
+        <item>391</item>
+    </integer-array>
+    <integer-array name="q58_anim08">
+        <item>648</item>
+        <item>316</item>
+        <item>773</item>
+        <item>380</item>
+    </integer-array>
+    <integer-array name="q58_anim09">
+        <item>659</item>
+        <item>170</item>
+        <item>766</item>
+        <item>271</item>
+    </integer-array>
+    <integer-array name="q58_anim10">
+        <item>653</item>
+        <item>30</item>
+        <item>734</item>
+        <item>135</item>
+    </integer-array>
+
+
 </resources>

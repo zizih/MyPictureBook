@@ -5,23 +5,31 @@ package andr.lexibook.mypicturebook.one.util;
  */
 public class RandomUtil {
 
+    private static RandomUtil instance;
     private int TopLength = 4;
     private int SubLength = 2;
     private int QueLength = 1;
 
     private int TopMax = 4;
 
-    public RandomUtil() {
+    private RandomUtil() {
     }
 
-    public RandomUtil(int topLength, int subLength, int queLength) {
+    private RandomUtil(int topLength, int subLength, int queLength) {
         this.TopLength = topLength;
         this.SubLength = subLength;
         this.QueLength = queLength;
     }
 
-    public static int[][] getQuestionOrder() {
-        return new RandomUtil().randomQ();
+    public static RandomUtil getInstance() {
+        if (instance == null) {
+            instance = new RandomUtil();
+        }
+        return instance;
+    }
+
+    public int[][] getQuestionOrder() {
+        return getInstance().randomQ();
     }
 
     private int[][] randomQ() {

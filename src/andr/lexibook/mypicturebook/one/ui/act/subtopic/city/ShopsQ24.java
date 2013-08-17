@@ -1,13 +1,12 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic.city;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.SubBase;
 import android.os.Bundle;
 
 /**
  * Created by rain on 7/3/13.
  */
-public class ShopsQ24 extends SubBase {
+public class ShopsQ24 extends CityBase {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

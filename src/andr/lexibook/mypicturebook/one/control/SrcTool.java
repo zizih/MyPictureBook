@@ -7,7 +7,6 @@ import andr.lexibook.mypicturebook.one.R;
  */
 public class SrcTool {
 
-
     private static SrcTool instance;
     private int qIndex;
 
@@ -161,7 +160,7 @@ public class SrcTool {
             , R.string.mp3_home_024
     }, {
             R.string.mp3_home_026
-            ,R.string.mp3_home_027
+            , R.string.mp3_home_027
             , R.string.mp3_home_028
             , R.string.mp3_home_029
             , R.string.mp3_home_030//31 for question b
@@ -525,6 +524,422 @@ public class SrcTool {
             , R.array.city_transportation_q20_anim08
             , R.array.city_transportation_q20_anim09
             , R.array.city_transportation_q20_anim10
+    }, {
+            R.array.q21_anim01
+            , R.array.q21_anim02
+            , R.array.q21_anim03
+            , R.array.q21_anim04
+            , R.array.q21_anim05
+            , R.array.q21_anim06
+            , R.array.q21_anim07
+            , R.array.q21_anim08
+    }, {
+            R.array.q22_anim01
+            , R.array.q22_anim02
+            , R.array.q22_anim03
+            , R.array.q22_anim04
+            , R.array.q22_anim05
+            , R.array.q22_anim06
+            , R.array.q22_anim07
+            , R.array.q22_anim08
+            , R.array.q22_anim09
+            , R.array.q22_anim10
+    }, {
+            R.array.q23_anim01
+            , R.array.q23_anim02
+            , R.array.q23_anim03
+            , R.array.q23_anim04
+            , R.array.q23_anim05
+            , R.array.q23_anim06
+            , R.array.q23_anim07
+            , R.array.q23_anim08
+            , R.array.q23_anim09
+            , R.array.q23_anim10
+    }, {
+            R.array.q24_anim01
+            , R.array.q24_anim02
+            , R.array.q24_anim03
+            , R.array.q24_anim04
+            , R.array.q24_anim05
+            , R.array.q24_anim06
+            , R.array.q24_anim07
+            , R.array.q24_anim08
+            , R.array.q24_anim09
+            , R.array.q24_anim10
+    }, {
+            R.array.q25_anim01
+            , R.array.q25_anim02
+            , R.array.q25_anim03
+            , R.array.q25_anim04
+            , R.array.q25_anim05
+            , R.array.q25_anim06
+            , R.array.q25_anim07
+            , R.array.q25_anim08
+            , R.array.q25_anim09
+            , R.array.q25_anim10
+    }, {
+            R.array.q26_anim01
+            , R.array.q26_anim02
+            , R.array.q26_anim03
+            , R.array.q26_anim04
+            , R.array.q26_anim05
+            , R.array.q26_anim06
+            , R.array.q26_anim07
+            , R.array.q26_anim08
+            , R.array.q26_anim09
+            , R.array.q26_anim10
+    }, {
+            R.array.q27_anim01
+            , R.array.q27_anim02
+            , R.array.q27_anim03
+            , R.array.q27_anim04
+            , R.array.q27_anim05
+            , R.array.q27_anim06
+            , R.array.q27_anim07
+            , R.array.q27_anim08
+            , R.array.q27_anim09
+            , R.array.q27_anim10
+    }, {
+            R.array.q28_anim01
+            , R.array.q28_anim02
+            , R.array.q28_anim03
+            , R.array.q28_anim04
+            , R.array.q28_anim05
+            , R.array.q28_anim06
+            , R.array.q28_anim07
+            , R.array.q28_anim08
+            , R.array.q28_anim09
+            , R.array.q28_anim10
+    }, {
+            R.array.q29_anim01
+            , R.array.q29_anim02
+            , R.array.q29_anim03
+            , R.array.q29_anim04
+            , R.array.q29_anim05
+            , R.array.q29_anim06
+            , R.array.q29_anim07
+            , R.array.q29_anim08
+            , R.array.q29_anim09
+            , R.array.q29_anim10
+    }, {
+            R.array.q30_anim01
+            , R.array.q30_anim02
+            , R.array.q30_anim03
+            , R.array.q30_anim04
+            , R.array.q30_anim05
+            , R.array.q30_anim06
+            , R.array.q30_anim07
+            , R.array.q30_anim08
+            , R.array.q30_anim09
+            , R.array.q30_anim10
+    }, {
+            R.array.q31_anim01
+            , R.array.q31_anim02
+            , R.array.q31_anim03
+            , R.array.q31_anim04
+            , R.array.q31_anim05
+            , R.array.q31_anim06
+            , R.array.q31_anim07
+            , R.array.q31_anim08
+            , R.array.q31_anim09
+            , R.array.q31_anim10
+    }, {
+            R.array.q32_anim01
+            , R.array.q32_anim02
+            , R.array.q32_anim03
+            , R.array.q32_anim04
+            , R.array.q32_anim05
+            , R.array.q32_anim06
+            , R.array.q32_anim07
+            , R.array.q32_anim08
+            , R.array.q32_anim09
+            , R.array.q32_anim10
+    }, {
+            R.array.q33_anim01
+            , R.array.q33_anim02
+            , R.array.q33_anim03
+            , R.array.q33_anim04
+            , R.array.q33_anim05
+            , R.array.q33_anim06
+            , R.array.q33_anim07
+            , R.array.q33_anim08
+            , R.array.q33_anim09
+            , R.array.q33_anim10
+    }, {
+            R.array.q34_anim01
+            , R.array.q34_anim02
+            , R.array.q34_anim03
+            , R.array.q34_anim04
+            , R.array.q34_anim05
+            , R.array.q34_anim06
+            , R.array.q34_anim07
+            , R.array.q34_anim08
+            , R.array.q34_anim09
+            , R.array.q34_anim10
+    }, {
+            R.array.q35_anim01
+            , R.array.q35_anim02
+            , R.array.q35_anim03
+            , R.array.q35_anim04
+            , R.array.q35_anim05
+            , R.array.q35_anim06
+            , R.array.q35_anim07
+            , R.array.q35_anim08
+            , R.array.q35_anim09
+            , R.array.q35_anim10
+    }, {
+            R.array.q36_anim01
+            , R.array.q36_anim02
+            , R.array.q36_anim03
+            , R.array.q36_anim04
+            , R.array.q36_anim05
+            , R.array.q36_anim06
+            , R.array.q36_anim07
+            , R.array.q36_anim08
+            , R.array.q36_anim09
+            , R.array.q36_anim10
+    }, {
+            R.array.q37_anim01
+            , R.array.q37_anim02
+            , R.array.q37_anim03
+            , R.array.q37_anim04
+            , R.array.q37_anim05
+            , R.array.q37_anim06
+            , R.array.q37_anim07
+            , R.array.q37_anim08
+            , R.array.q37_anim09
+            , R.array.q37_anim10
+    }, {
+            R.array.q38_anim01
+            , R.array.q38_anim02
+            , R.array.q38_anim03
+            , R.array.q38_anim04
+            , R.array.q38_anim05
+            , R.array.q38_anim06
+            , R.array.q38_anim07
+            , R.array.q38_anim08
+            , R.array.q38_anim09
+            , R.array.q38_anim10
+    }, {
+            R.array.q39_anim01
+            , R.array.q39_anim02
+            , R.array.q39_anim03
+            , R.array.q39_anim04
+            , R.array.q39_anim05
+            , R.array.q39_anim06
+            , R.array.q39_anim07
+            , R.array.q39_anim08
+            , R.array.q39_anim09
+            , R.array.q39_anim10
+    }, {
+            R.array.q40_anim01
+            , R.array.q40_anim02
+            , R.array.q40_anim03
+            , R.array.q40_anim04
+            , R.array.q40_anim05
+            , R.array.q40_anim06
+            , R.array.q40_anim07
+            , R.array.q40_anim08
+            , R.array.q40_anim09
+            , R.array.q40_anim10
+    }, {
+            R.array.q41_anim01
+            , R.array.q41_anim02
+            , R.array.q41_anim03
+            , R.array.q41_anim04
+            , R.array.q41_anim05
+            , R.array.q41_anim06
+            , R.array.q41_anim07
+            , R.array.q41_anim08
+            , R.array.q41_anim09
+            , R.array.q41_anim10
+    }, {
+            R.array.q42_anim01
+            , R.array.q42_anim02
+            , R.array.q42_anim03
+            , R.array.q42_anim04
+            , R.array.q42_anim05
+            , R.array.q42_anim06
+            , R.array.q42_anim07
+            , R.array.q42_anim08
+            , R.array.q42_anim09
+            , R.array.q42_anim10
+    }, {
+            R.array.q43_anim01
+            , R.array.q43_anim02
+            , R.array.q43_anim03
+            , R.array.q43_anim04
+            , R.array.q43_anim05
+            , R.array.q43_anim06
+            , R.array.q43_anim07
+            , R.array.q43_anim08
+            , R.array.q43_anim09
+            , R.array.q43_anim10
+    }, {
+            R.array.q44_anim01
+            , R.array.q44_anim02
+            , R.array.q44_anim03
+            , R.array.q44_anim04
+            , R.array.q44_anim05
+            , R.array.q44_anim06
+            , R.array.q44_anim07
+            , R.array.q44_anim08
+            , R.array.q44_anim09
+            , R.array.q44_anim10
+    }, {
+            R.array.q45_anim01
+            , R.array.q45_anim02
+            , R.array.q45_anim03
+            , R.array.q45_anim04
+            , R.array.q45_anim05
+            , R.array.q45_anim06
+            , R.array.q45_anim07
+            , R.array.q45_anim08
+            , R.array.q45_anim09
+            , R.array.q45_anim10
+    }, {
+            R.array.q46_anim01
+            , R.array.q46_anim02
+            , R.array.q46_anim03
+            , R.array.q46_anim04
+            , R.array.q46_anim05
+            , R.array.q46_anim06
+            , R.array.q46_anim07
+            , R.array.q46_anim08
+            , R.array.q46_anim09
+            , R.array.q46_anim10
+    }, {
+            R.array.q47_anim01
+            , R.array.q47_anim02
+            , R.array.q47_anim03
+            , R.array.q47_anim04
+            , R.array.q47_anim05
+            , R.array.q47_anim06
+            , R.array.q47_anim07
+            , R.array.q47_anim08
+            , R.array.q47_anim09
+            , R.array.q47_anim10
+    }, {
+            R.array.q48_anim01
+            , R.array.q48_anim02
+            , R.array.q48_anim03
+            , R.array.q48_anim04
+            , R.array.q48_anim05
+            , R.array.q48_anim06
+            , R.array.q48_anim07
+            , R.array.q48_anim08
+            , R.array.q48_anim09
+            , R.array.q48_anim10
+    }, {
+            R.array.q49_anim01
+            , R.array.q49_anim02
+            , R.array.q49_anim03
+            , R.array.q49_anim04
+            , R.array.q49_anim05
+            , R.array.q49_anim06
+            , R.array.q49_anim07
+            , R.array.q49_anim08
+            , R.array.q49_anim09
+            , R.array.q49_anim10
+    }, {
+            R.array.q50_anim01
+            , R.array.q50_anim02
+            , R.array.q50_anim03
+            , R.array.q50_anim04
+            , R.array.q50_anim05
+            , R.array.q50_anim06
+            , R.array.q50_anim07
+            , R.array.q50_anim08
+            , R.array.q50_anim09
+            , R.array.q50_anim10
+    }, {
+            R.array.q51_anim01
+            , R.array.q51_anim02
+            , R.array.q51_anim03
+            , R.array.q51_anim04
+            , R.array.q51_anim05
+            , R.array.q51_anim06
+            , R.array.q51_anim07
+            , R.array.q51_anim08
+            , R.array.q51_anim09
+            , R.array.q51_anim10
+    }, {
+            R.array.q52_anim01
+            , R.array.q52_anim02
+            , R.array.q52_anim03
+            , R.array.q52_anim04
+            , R.array.q52_anim05
+            , R.array.q52_anim06
+            , R.array.q52_anim07
+            , R.array.q52_anim08
+            , R.array.q52_anim09
+            , R.array.q52_anim10
+    }, {
+            R.array.q53_anim01
+            , R.array.q53_anim02
+            , R.array.q53_anim03
+            , R.array.q53_anim04
+            , R.array.q53_anim05
+            , R.array.q53_anim06
+            , R.array.q53_anim07
+            , R.array.q53_anim08
+            , R.array.q53_anim09
+            , R.array.q53_anim10
+    }, {
+            R.array.q54_anim01
+            , R.array.q54_anim02
+            , R.array.q54_anim03
+            , R.array.q54_anim04
+            , R.array.q54_anim05
+            , R.array.q54_anim06
+            , R.array.q54_anim07
+            , R.array.q54_anim08
+            , R.array.q54_anim09
+            , R.array.q54_anim10
+    }, {
+            R.array.q55_anim01
+            , R.array.q55_anim02
+            , R.array.q55_anim03
+            , R.array.q55_anim04
+            , R.array.q55_anim05
+            , R.array.q55_anim06
+            , R.array.q55_anim07
+            , R.array.q55_anim08
+            , R.array.q55_anim09
+            , R.array.q55_anim10
+    }, {
+            R.array.q56_anim01
+            , R.array.q56_anim02
+            , R.array.q56_anim03
+            , R.array.q56_anim04
+            , R.array.q56_anim05
+            , R.array.q56_anim06
+            , R.array.q56_anim07
+            , R.array.q56_anim08
+            , R.array.q56_anim09
+            , R.array.q56_anim10
+    }, {
+            R.array.q57_anim01
+            , R.array.q57_anim02
+            , R.array.q57_anim03
+            , R.array.q57_anim04
+            , R.array.q57_anim05
+            , R.array.q57_anim06
+            , R.array.q57_anim07
+            , R.array.q57_anim08
+            , R.array.q57_anim09
+            , R.array.q57_anim10
+    }, {
+            R.array.q58_anim01
+            , R.array.q58_anim02
+            , R.array.q58_anim03
+            , R.array.q58_anim04
+            , R.array.q58_anim05
+            , R.array.q58_anim06
+            , R.array.q58_anim07
+            , R.array.q58_anim08
+            , R.array.q58_anim09
+            , R.array.q58_anim10
     }
     };
 
@@ -2737,6 +3152,5 @@ public class SrcTool {
             , R.drawable.animr058_red_09
             , R.drawable.animr058_red_10
     }};
-
 
 }

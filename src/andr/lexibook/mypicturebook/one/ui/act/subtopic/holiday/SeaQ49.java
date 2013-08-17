@@ -7,7 +7,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 8/11/13.
  */
-public class SeaQ49 extends SubBase {
+public class SeaQ49 extends HolidayBase {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

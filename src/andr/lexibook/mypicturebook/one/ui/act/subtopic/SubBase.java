@@ -3,6 +3,10 @@ package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 import andr.lexibook.mypicturebook.one.R;
 import andr.lexibook.mypicturebook.one.control.SrcTool;
 import andr.lexibook.mypicturebook.one.ui.act.BaseActivity;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.*;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.*;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.holiday.*;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.*;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.os.Bundle;
 import android.os.Handler;
@@ -20,6 +24,7 @@ public class SubBase extends BaseActivity {
     private int qIndex = 0;
     private boolean hasNextQuestion = false;
     private Class nexPage;
+    private Class homeClass;
 
     private int[] home_location;
     private int[] next_location;
@@ -115,7 +120,11 @@ public class SubBase extends BaseActivity {
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
             if (checkLocation(event, home_location))
-                toPage(Home.class);
+                if (homeClass != null) {
+                    toPage(homeClass);
+                } else {
+                    toPage(Home.class);
+                }
             if (checkLocation(event, media_location)) {
                 priorityPool.play(qSound, 1, 1, 0, 0, 1);
             }
@@ -212,6 +221,10 @@ public class SubBase extends BaseActivity {
         for (int i = 0; i < length; i++)
             tmp[i] = src[relocations[i] - 1];
         return tmp;
+    }
+
+    public void setHome(Class homeClass) {
+        this.homeClass = homeClass;
     }
 
     public void setQIndex(int qIndex) {
@@ -328,4 +341,35 @@ public class SubBase extends BaseActivity {
     public void setHasNextQuestion() {
         hasNextQuestion = true;
     }
+
+    private Class[][] homes = {
+            {KitchenQ01.class, KitchenQ02.class, KitchenQ03.class, KitchenQ04.class}
+            , {BathroomQ05.class, BathroomQ06.class, BathroomQ07.class, BathroomQ08.class}
+            , {BedroomQ09.class, BedroomQ10.class, BedroomQ11.class, BedroomQ12.class}
+            , {GardenQ13.class, GardenQ14.class, GardenQ15.class, GardenQ16.class}
+    };
+
+    private Class[][] citys = {
+            {TransportationQ17.class, TransportationQ18.class, TransportationQ19.class, TransportationQ20.class}
+            , {ShopsQ21.class, ShopsQ22.class, ShopsQ23.class, ShopsQ24.class}
+            , {SchoolQ25.class, SchoolQ26.class, SchoolQ27.class, SchoolQ28.class}
+            , {JobsQ29.class, JobsQ30.class, JobsQ31.class, JobsQ32.class}
+    };
+
+    private Class[][] hobbies = {
+            {SportsQ33.class, SportsQ34.class, SportsQ35.class, SportsQ36.class}
+            , {MusicQ37.class, MusicQ38.class, MusicQ39.class, MusicQ40.class}
+            , {DrawingQ41.class, DrawingQ42.class, DrawingQ43.class, DrawingQ44.class}
+            , {OutdoorQ45.class, OutdoorQ46.class, OutdoorQ47.class, OutdoorQ48.class}
+    };
+
+    private Class[][] holidays = {
+            {SeaQ49.class, SeaQ50.class}
+            , {ForestQ51.class, ForestQ51.class}
+            , {MountainsQ53.class, MountainsQ53.class}
+            , {FarmQ55.class, FarmQ55.class}
+            , {DesertQ57.class, DesertQ58.class}
+    };
+
+    public Class[][][] questions = {homes, citys, hobbies, holidays};
 }

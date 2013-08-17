@@ -7,7 +7,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 8/11/13.
  */
-public class MountainsQ54 extends SubBase {
+public class MountainsQ54 extends HolidayBase {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

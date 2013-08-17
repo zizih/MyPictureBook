@@ -1,13 +1,12 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.SubBase;
 import android.os.Bundle;
 
 /**
  * Created by rain on 8/11/13.
  */
-public class SportsQ34 extends SubBase {
+public class SportsQ34 extends HobbiesBase {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

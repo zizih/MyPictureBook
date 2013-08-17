@@ -2,13 +2,12 @@ package andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies;
 
 import andr.lexibook.mypicturebook.one.R;
 import andr.lexibook.mypicturebook.one.ui.act.subtopic.SubBase;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.JobsQ31;
 import android.os.Bundle;
 
 /**
  * Created by rain on 8/11/13.
  */
-public class SportsQ35 extends SubBase {
+public class SportsQ35 extends HobbiesBase {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

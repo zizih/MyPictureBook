@@ -6,7 +6,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 7/3/13.
  */
-public class ShopsQ24 extends CityBase {
+public class ShopsQ24 extends Base {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

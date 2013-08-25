@@ -75,18 +75,6 @@ public class Discovery extends BaseActivity {
         return super.onTouchEvent(event);
     }
 
-//    @Override
-//    public void toPage(final Class<?> cls) {
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                toPage.setClass(Discovery.this, cls);
-//                startActivity(toPage);
-//            }
-//        }, 0);
-//    }
-
-
     @Override
     protected void onDestroy() {
         pool.unload(homeSoundId);

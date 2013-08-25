@@ -55,13 +55,13 @@ public class BaseActivity extends Activity {
     }
 
     public void play(MediaPlayer media) {
-        if (media.isPlaying())
-            media.release();
-        try {
-            media.prepare();
-            media.start();
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (media != null) {
+            try {
+                media.prepare();
+                media.start();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 

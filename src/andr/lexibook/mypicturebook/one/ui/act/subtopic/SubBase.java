@@ -148,7 +148,7 @@ public class SubBase extends BaseActivity {
                 if (checkLocation(event, locations[i])) {
                     pool.play(aSounds[i], 1, 1, 0, 0, 1);
                     if (!ifClicks[i]) {
-                        if (hasNextQuestion) {
+                        if (!hasNextQuestion) {
                             lls[i].setBackgroundDrawable(getResources().getDrawable(redIds[i]));
                         } else {
                             lls[i].setBackgroundDrawable(getResources().getDrawable(greenIds[i]));
@@ -175,8 +175,9 @@ public class SubBase extends BaseActivity {
     @Override
     public void toPage(Class<?> cls) {
         super.toPage(cls);
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++) {
             pool.unload(aSounds[i]);
+        }
         priorityPool.unload(qSound);
         finish();
     }
@@ -207,8 +208,9 @@ public class SubBase extends BaseActivity {
             length = relocations.length;
         }
         int[] tmp = new int[10];
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i < length; i++) {
             tmp[i] = src[relocations[i] - 1];
+        }
         return tmp;
     }
 
@@ -218,8 +220,9 @@ public class SubBase extends BaseActivity {
             length = relocations.length;
         }
         int[][] tmp = new int[10][];
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i < length; i++) {
             tmp[i] = src[relocations[i] - 1];
+        }
         return tmp;
     }
 

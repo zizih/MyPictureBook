@@ -5,7 +5,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 8/11/13.
  */
-public class ForestQ51 extends HolidayBase {
+public class ForestQ51 extends Base {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

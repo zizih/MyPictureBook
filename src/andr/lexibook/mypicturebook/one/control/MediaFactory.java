@@ -55,6 +55,7 @@ public class MediaFactory {
         if (media == null)
             return getMedia(ctx.getString(pathId));
         try {
+            media.release();
             media.reset();
             media.setDataSource(descriptor.getFileDescriptor(), descriptor.getStartOffset(), descriptor.getDeclaredLength());
             descriptor.close();

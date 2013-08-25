@@ -5,7 +5,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 7/3/13.
  */
-public class TransportationQ18 extends CityBase {
+public class TransportationQ18 extends Base {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

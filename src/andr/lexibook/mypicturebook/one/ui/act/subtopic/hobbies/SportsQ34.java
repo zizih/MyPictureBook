@@ -6,7 +6,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 8/11/13.
  */
-public class SportsQ34 extends HobbiesBase {
+public class SportsQ34 extends Base {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

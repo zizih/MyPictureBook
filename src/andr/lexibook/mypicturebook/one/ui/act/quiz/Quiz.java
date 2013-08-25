@@ -17,4 +17,3 @@ public class Quiz extends BaseActivity {
         order = RandomUtil.getInstance().getQuestionOrder();
     }
 }
-

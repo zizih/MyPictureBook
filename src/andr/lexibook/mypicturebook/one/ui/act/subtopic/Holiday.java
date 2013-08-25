@@ -1,6 +1,7 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.holiday.*;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.os.Bundle;
 
@@ -22,5 +23,20 @@ public class Holiday extends TopicBase {
 
         sail.setMovieAsset(getString(R.string.gif_holidays_sail));
         cloud.setMovieAsset(getString(R.string.gif_holidays_cloud));
+
+        sub_locations = new int[][]{
+                getResources().getIntArray(R.array.holiday_sea_location)
+                , getResources().getIntArray(R.array.holiday_forest_location)
+                , getResources().getIntArray(R.array.holiday_mountains_location)
+                , getResources().getIntArray(R.array.holiday_farm_location)
+                , getResources().getIntArray(R.array.holiday_desert_location)
+        };
+        sub_medias = new int[]{
+                R.string.mp3_holiday_002, R.string.mp3_holiday_025, R.string.mp3_holiday_048
+                , R.string.mp3_holiday_071, R.string.mp3_holiday_094
+        };
+        sub_clzz = new Class[]{
+                SeaQ49.class, ForestQ51.class, MountainsQ53.class, FarmQ55.class, DesertQ57.class
+        };
     }
 }

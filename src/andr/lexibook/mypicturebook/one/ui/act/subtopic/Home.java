@@ -19,19 +19,6 @@ public class Home extends TopicBase implements MediaPlayer.OnCompletionListener 
     private GifMovieView butterfly;
     private GifMovieView dog;
 
-    /**
-     * kitchen :R.string.mp3_home_002, 1
-     * bath :R.string.mp3_home_048, 1
-     * bed: R.string.mp3_home_093
-     * garden:  R.string.mp3_home_138
-     */
-    private MediaPlayer subMedia;
-    private int subIndex = 0;
-    private int[] kitchen_location;
-    private int[] bedroom_location;
-    private int[] bathroom_location;
-    private int[] garden_location;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,59 +32,18 @@ public class Home extends TopicBase implements MediaPlayer.OnCompletionListener 
         butterfly.setMovieAsset(getString(R.string.gif_home_butterfly));
         dog.setMovieAsset(getString(R.string.gif_home_dog));
 
-        kitchen_location = getResources().getIntArray(R.array.home_kitchen);
-        bedroom_location = getResources().getIntArray(R.array.home_bedroom);
-        bathroom_location = getResources().getIntArray(R.array.home_bathroom);
-        garden_location = getResources().getIntArray(R.array.home_garden);
-    }
-
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            if (checkLocation(event, kitchen_location)) {
-                subMedia = mediaFactory.getMedia(R.string.mp3_home_002);
-                subIndex = 0;
-            }
-            if (checkLocation(event, bathroom_location)) {
-                subMedia = mediaFactory.getMedia(R.string.mp3_home_048);
-                subIndex = 1;
-            }
-            if (checkLocation(event, bedroom_location)) {
-                subMedia = mediaFactory.getMedia(R.string.mp3_home_093);
-                subIndex = 2;
-            }
-            if (checkLocation(event, garden_location)) {
-                subMedia = mediaFactory.getMedia(R.string.mp3_home_138);
-                subIndex = 3;
-            }
-            play(subMedia);
-            subMedia.setOnCompletionListener(this);
-        }
-        return super.onTouchEvent(event);
-    }
-
-    @Override
-    public void onCompletion(MediaPlayer mp) {
-        switch (subIndex) {
-            case 0:
-                toPage(KitchenQ01.class);
-                break;
-            case 1:
-                toPage(BathroomQ05.class);
-                break;
-            case 2:
-                toPage(BedroomQ09.class);
-                break;
-            case 3:
-                toPage(GardenQ13.class);
-                break;
-        }
-    }
-
-    @Override
-    public void toPage(Class<?> cls) {
-        subMedia.release();
-        super.toPage(cls);
+        sub_locations = new int[][]{
+                getResources().getIntArray(R.array.home_kitchen)
+                , getResources().getIntArray(R.array.home_bedroom)
+                , getResources().getIntArray(R.array.home_bathroom)
+                , getResources().getIntArray(R.array.home_garden)
+        };
+        sub_medias = new int[]{
+                R.string.mp3_city_002, R.string.mp3_city_047, R.string.mp3_city_092, R.string.mp3_city_137
+        };
+        sub_clzz = new Class[]{
+                KitchenQ01.class, BathroomQ05.class, BedroomQ09.class, GardenQ13.class
+        };
     }
 
 }

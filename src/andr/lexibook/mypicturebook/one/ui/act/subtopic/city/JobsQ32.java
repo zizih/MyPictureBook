@@ -5,7 +5,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 7/3/13.
  */
-public class JobsQ32 extends CityBase {
+public class JobsQ32 extends Base {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

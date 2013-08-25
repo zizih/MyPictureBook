@@ -84,7 +84,7 @@
     </integer-array>
     <!--end of sub-->
 
-    <!--home-->
+    <!--start of sub locations-->
     <integer-array name="home_kitchen">
         <item>16</item>
         <item>318</item>
@@ -109,6 +109,89 @@
         <item>685</item>
         <item>457</item>
     </integer-array>
+
+    <integer-array name="city_school_location">
+        <item>357</item>
+        <item>224</item>
+        <item>617</item>
+        <item>293</item>
+    </integer-array>
+    <integer-array name="city_jobs_location">
+        <item>445</item>
+        <item>306</item>
+        <item>703</item>
+        <item>374</item>
+    </integer-array>
+    <integer-array name="city_shops_location">
+        <item>13</item>
+        <item>388</item>
+        <item>272</item>
+        <item>457</item>
+    </integer-array>
+    <integer-array name="city_transportation_location">
+        <item>289</item>
+        <item>388</item>
+        <item>548</item>
+        <item>456</item>
+    </integer-array>
+
+    <integer-array name="hobbies_sports_location">
+        <item>9</item>
+        <item>244</item>
+        <item>256</item>
+        <item>313</item>
+    </integer-array>
+    <integer-array name="hobbies_outdoor_location">
+        <item>75</item>
+        <item>326</item>
+        <item>316</item>
+        <item>394</item>
+    </integer-array>
+    <integer-array name="hobbies_draw_location">
+        <item>30</item>
+        <item>405</item>
+        <item>277</item>
+        <item>471</item>
+    </integer-array>
+    <integer-array name="hobbies_music_location">
+        <item>289</item>
+        <item>406</item>
+        <item>536</item>
+        <item>469</item>
+    </integer-array>
+
+    <integer-array name="holiday_sea_location">
+        <item>242</item>
+        <item>266</item>
+        <item>526</item>
+        <item>301</item>
+    </integer-array>
+    <integer-array name="holiday_forest_location">
+        <item>12</item>
+        <item>317</item>
+        <item>294</item>
+        <item>385</item>
+    </integer-array>
+    <integer-array name="holiday_desert_location">
+        <item>308</item>
+        <item>316</item>
+        <item>585</item>
+        <item>386</item>
+    </integer-array>
+    <integer-array name="holiday_mountains_location">
+        <item>76</item>
+        <item>401</item>
+        <item>356</item>
+        <item>470</item>
+    </integer-array>
+    <integer-array name="holiday_farm_location">
+        <item>370</item>
+        <item>403</item>
+        <item>649</item>
+        <item>466</item>
+    </integer-array>
+
+    <!--home-->
     <!--kitchen-->
     <integer-array name="home_kitchen_home">
         <item>738</item>
@@ -1140,30 +1223,6 @@
 
     <!--begin of city-->
     <!--begin of transportation-->
-    <integer-array name="city_school_location">
-        <item>357</item>
-        <item>224</item>
-        <item>617</item>
-        <item>293</item>
-    </integer-array>
-    <integer-array name="city_jobs_location">
-        <item>445</item>
-        <item>306</item>
-        <item>703</item>
-        <item>374</item>
-    </integer-array>
-    <integer-array name="city_shops_location">
-        <item>13</item>
-        <item>388</item>
-        <item>272</item>
-        <item>457</item>
-    </integer-array>
-    <integer-array name="city_transportation_location">
-        <item>289</item>
-        <item>388</item>
-        <item>548</item>
-        <item>456</item>
-    </integer-array>
     <!--begin of transportation q17-->
     <integer-array name="city_transportation_q17_anim01">
         <item>17</item>

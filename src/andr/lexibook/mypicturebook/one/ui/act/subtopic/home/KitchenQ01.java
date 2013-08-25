@@ -5,7 +5,7 @@ import android.os.Bundle;
 /**
  * Created by rain on 7/3/13.
  */
-public class KitchenQ01 extends HomeBase {
+public class KitchenQ01 extends Base {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,14 +1,13 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.JobsQ29;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.SchoolQ25;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.ShopsQ21;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.TransportationQ17;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.Q17Transportation;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.Q21Shops;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.Q25School;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.city.Q29Jobs;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.MotionEvent;
 
 /**
  * Created by rain on 6/23/13.
@@ -45,7 +44,7 @@ public class City extends TopicBase implements MediaPlayer.OnCompletionListener 
                 R.string.mp3_city_002, R.string.mp3_city_047, R.string.mp3_city_092, R.string.mp3_city_137
         };
         sub_clzz = new Class[]{
-                TransportationQ17.class, ShopsQ21.class, SchoolQ25.class, JobsQ29.class
+                Q17Transportation.class, Q21Shops.class, Q25School.class, Q29Jobs.class
         };
     }
 }

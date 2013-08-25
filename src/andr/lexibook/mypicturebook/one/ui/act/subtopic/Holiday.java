@@ -36,7 +36,7 @@ public class Holiday extends TopicBase {
                 , R.string.mp3_holiday_071, R.string.mp3_holiday_094
         };
         sub_clzz = new Class[]{
-                SeaQ49.class, ForestQ51.class, MountainsQ53.class, FarmQ55.class, DesertQ57.class
+                Q49Sea.class, Q51Forest.class, Q53Mountains.class, Q55Farm.class, Q57Desert.class
         };
     }
 }

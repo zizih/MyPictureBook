@@ -1,14 +1,13 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BathroomQ05;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.BedroomQ09;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.GardenQ13;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.KitchenQ01;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.Q05Bathroom;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.Q09Bedroom;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.Q13Garden;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.home.Q01Kitchen;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.MotionEvent;
 
 /**
  * Created by rain on 6/23/13.
@@ -42,7 +41,7 @@ public class Home extends TopicBase implements MediaPlayer.OnCompletionListener 
                 R.string.mp3_city_002, R.string.mp3_city_047, R.string.mp3_city_092, R.string.mp3_city_137
         };
         sub_clzz = new Class[]{
-                KitchenQ01.class, BathroomQ05.class, BedroomQ09.class, GardenQ13.class
+                Q01Kitchen.class, Q05Bathroom.class, Q09Bedroom.class, Q13Garden.class
         };
     }
 

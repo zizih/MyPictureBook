@@ -1,10 +1,10 @@
 package andr.lexibook.mypicturebook.one.ui.act.subtopic;
 
 import andr.lexibook.mypicturebook.one.R;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.DrawingQ41;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.MusicQ37;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.OutdoorQ45;
-import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.SportsQ33;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.Q33Sports;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.Q37Music;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.Q41Drawing;
+import andr.lexibook.mypicturebook.one.ui.act.subtopic.hobbies.Q45Outdoor;
 import andr.lexibook.mypicturebook.one.ui.viewIml.GifMovieView;
 import android.os.Bundle;
 
@@ -37,7 +37,7 @@ public class Hobbies extends TopicBase {
                 R.string.mp3_hobby_002, R.string.mp3_hobby_048, R.string.mp3_hobby_093, R.string.mp3_hobby_138
         };
         sub_clzz = new Class[]{
-                SportsQ33.class, MusicQ37.class, DrawingQ41.class, OutdoorQ45.class
+                Q33Sports.class, Q37Music.class, Q41Drawing.class, Q45Outdoor.class
         };
     }
 }

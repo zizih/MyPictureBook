@@ -187,6 +187,8 @@ public class SubBase extends BaseActivity {
             toQB();
         } else if (nexPage != null) {
             toPage(nexPage);
+        } else {
+            finish();
         }
     }
 
@@ -235,7 +237,6 @@ public class SubBase extends BaseActivity {
             qIndex--;
         }
         this.qIndex = qIndex;
-        System.out.println("qIndex: " + qIndex);
         Tool.setQIndex(this.qIndex);
         setBg();
         setFg();
@@ -346,32 +347,32 @@ public class SubBase extends BaseActivity {
     }
 
     private Class[][] homes = {
-            {KitchenQ01.class, KitchenQ02.class, KitchenQ03.class, KitchenQ04.class}
-            , {BathroomQ05.class, BathroomQ06.class, BathroomQ07.class, BathroomQ08.class}
-            , {BedroomQ09.class, BedroomQ10.class, BedroomQ11.class, BedroomQ12.class}
-            , {GardenQ13.class, GardenQ14.class, GardenQ15.class, GardenQ16.class}
+            {Q01Kitchen.class, Q02Kitchen.class, Q03Kitchen.class, Q04Kitchen.class}
+            , {Q05Bathroom.class, Q06Bathroom.class, Q07Bathroom.class, Q08Bathroom.class}
+            , {Q09Bedroom.class, Q10Bedroom.class, Q11Bedroom.class, Q12Bedroom.class}
+            , {Q13Garden.class, Q14Garden.class, Q15Garden.class, Q16Garden.class}
     };
 
     private Class[][] citys = {
-            {TransportationQ17.class, TransportationQ18.class, TransportationQ19.class, TransportationQ20.class}
-            , {ShopsQ21.class, ShopsQ22.class, ShopsQ23.class, ShopsQ24.class}
-            , {SchoolQ25.class, SchoolQ26.class, SchoolQ27.class, SchoolQ28.class}
-            , {JobsQ29.class, JobsQ30.class, JobsQ31.class, JobsQ32.class}
+            {Q17Transportation.class, Q18Transportation.class, Q19Transportation.class, Q20Transportation.class}
+            , {Q21Shops.class, Q22Shops.class, Q23Shops.class, Q24Shops.class}
+            , {Q25School.class, Q26School.class, Q27School.class, Q28School.class}
+            , {Q29Jobs.class, Q30Jobs.class, Q31Jobs.class, Q32Jobs.class}
     };
 
     private Class[][] hobbies = {
-            {SportsQ33.class, SportsQ34.class, SportsQ35.class, SportsQ36.class}
-            , {MusicQ37.class, MusicQ38.class, MusicQ39.class, MusicQ40.class}
-            , {DrawingQ41.class, DrawingQ42.class, DrawingQ43.class, DrawingQ44.class}
-            , {OutdoorQ45.class, OutdoorQ46.class, OutdoorQ47.class, OutdoorQ48.class}
+            {Q33Sports.class, Q34Sports.class, Q35Sports.class, Q36Sports.class}
+            , {Q37Music.class, Q38Music.class, Q39Music.class, Q40Music.class}
+            , {Q41Drawing.class, Q42Drawing.class, Q43Drawing.class, Q44Drawing.class}
+            , {Q45Outdoor.class, Q46Outdoor.class, Q47Outdoor.class, Q48Outdoor.class}
     };
 
     private Class[][] holidays = {
-            {SeaQ49.class, SeaQ50.class}
-            , {ForestQ51.class, ForestQ51.class}
-            , {MountainsQ53.class, MountainsQ53.class}
-            , {FarmQ55.class, FarmQ55.class}
-            , {DesertQ57.class, DesertQ58.class}
+            {Q49Sea.class, Q50Sea.class}
+            , {Q51Forest.class, Q51Forest.class}
+            , {Q53Mountains.class, Q53Mountains.class}
+            , {Q55Farm.class, Q55Farm.class}
+            , {Q57Desert.class, Q58Desert.class}
     };
 
     public Class[][][] questions = {homes, citys, hobbies, holidays};

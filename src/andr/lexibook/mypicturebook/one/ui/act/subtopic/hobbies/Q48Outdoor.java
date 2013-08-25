@@ -11,7 +11,7 @@ public class Q48Outdoor extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(48);
-        setRight(5);
+        setRight(6);
         setReLocation(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     }
 }

@@ -11,7 +11,7 @@ public class Q36Sports extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(36);
-        setRight(5);
+        setRight(7);
         setReLocation(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     }
 }

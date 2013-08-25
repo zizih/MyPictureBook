@@ -11,7 +11,7 @@ public class Q44Drawing extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(44);
-        setRight(5);
+        setRight(3);
         setReLocation(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     }
 }

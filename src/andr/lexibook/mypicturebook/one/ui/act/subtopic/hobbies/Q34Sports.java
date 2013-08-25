@@ -12,7 +12,7 @@ public class Q34Sports extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(34);
-        setRight(5);
+        setRight(3);
         setAnimB(R.string.gif_anim_q34a);
         setReLocation(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         setNextPage(Q35Sports.class);

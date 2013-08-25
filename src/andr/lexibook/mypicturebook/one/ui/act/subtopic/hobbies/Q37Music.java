@@ -11,7 +11,7 @@ public class Q37Music extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(37);
-        setRight(5);
+        setRight(6);
         setReLocation(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         setNextPage(Q38Music.class);
     }

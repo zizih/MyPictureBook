@@ -12,7 +12,7 @@ public class Q49Sea extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(49);
-        setRight(5);
+        setRight(6);
         setAnimB(R.string.gif_anim_q49b);
         setAnimC(R.string.gif_anim_q49c);
         setReLocation(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);

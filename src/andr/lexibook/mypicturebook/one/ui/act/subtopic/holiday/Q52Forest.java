@@ -12,7 +12,7 @@ public class Q52Forest extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(52);
-        setRight(5);
+        setRight(6);
         setAnimB(R.string.gif_anim_q52b);
         setAnimC(R.string.gif_anim_q52c);
     }

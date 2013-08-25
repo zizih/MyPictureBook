@@ -12,7 +12,7 @@ public class Q53Mountains extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(53);
-        setRight(5);
+        setRight(6);
         setAnimB(R.string.gif_anim_q53b);
         setAnimC(R.string.gif_anim_q53c);
         setAnimD(R.string.gif_anim_q53d);

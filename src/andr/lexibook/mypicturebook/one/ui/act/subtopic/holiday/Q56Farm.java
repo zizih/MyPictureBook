@@ -11,6 +11,6 @@ public class Q56Farm extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(56);
-        setRight(5);
+        setRight(4);
     }
 }

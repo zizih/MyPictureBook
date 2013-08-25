@@ -11,7 +11,7 @@ public class Q55Farm extends Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setQIndex(55);
-        setRight(5);
+        setRight(7);
         setNextPage(Q56Farm.class);
     }
 }
